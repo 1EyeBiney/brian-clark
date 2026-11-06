@@ -1,0 +1,42 @@
+{
+ "benefits_paper": {
+  "records": {
+   "published": 39934,
+   "mine": 39934
+  },
+  "people": {
+   "published": 4093503,
+   "mine": 4093503
+  },
+  "percent_receiving_social_security": {
+   "published": 19.8,
+   "mine": 19.8
+  },
+  "percent_of_recipients_who_worked": {
+   "published": 12.4,
+   "mine": 12.4
+  },
+  "percent_of_non_recipients_who_worked": {
+   "published": 58.8,
+   "mine": 58.8
+  }
+ },
+ "underemployment_paper": {
+  "records": {
+   "published": 695899,
+   "mine": 695899
+  },
+  "people": {
+   "published": 69925153,
+   "mine": 69925153
+  },
+  "records_with_visual_impairment": {
+   "published": 6038,
+   "mine": 6038
+  },
+  "people_with_visual_impairment": {
+   "published": 610618,
+   "mine": 610618
+  }
+ }
+}

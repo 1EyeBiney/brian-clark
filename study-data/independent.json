@@ -1,0 +1,339 @@
+{
+  "_notes": {
+    "universe": "AGEP 18-64, ESR not in (4,5), RELSHIPP != 37; weight PWGTP",
+    "moe": "SE = sqrt(4/80 * sum_r (est_r - est)^2) over PWGTP1..PWGTP80; MOE90 = 1.645*SE"
+  },
+  "2019": {
+    "records_read_all_ages": 3239553,
+    "check_atwork_by_esr_weighted": {
+      "1": 144449891
+    },
+    "check_esr1_without_jwtrns_weighted": 0,
+    "with_vision_difficulty": {
+      "a_population": {
+        "count": 3785263,
+        "se": 25762.319643230887,
+        "moe90": 42379.01581311481
+      },
+      "b_pct_employed": {
+        "pct": 46.05632422370652,
+        "se": 0.36642961403713803,
+        "moe90": 0.6027767150910921,
+        "numerator_weighted": 1743353,
+        "denominator_weighted": 3785263
+      },
+      "b_unemployment_rate": {
+        "pct": 8.630207560826177,
+        "se": 0.2954258005423765,
+        "moe90": 0.4859754418922093,
+        "numerator_weighted": 164666,
+        "denominator_weighted": 1908019
+      },
+      "b_pct_not_in_labor_force": {
+        "pct": 49.59348927670283,
+        "se": 0.34444888176097144,
+        "moe90": 0.5666184104967981,
+        "numerator_weighted": 1877244,
+        "denominator_weighted": 3785263
+      },
+      "c_pct_worked_from_home_among_at_work": {
+        "pct": 4.615338219241426,
+        "se": 0.21187027517224782,
+        "moe90": 0.3485266026583477,
+        "numerator_weighted": 78051,
+        "denominator_weighted": 1691122
+      }
+    },
+    "without_vision_difficulty": {
+      "a_population": {
+        "count": 193792683,
+        "se": 41429.38556869991,
+        "moe90": 68151.33926051135
+      },
+      "b_pct_employed": {
+        "pct": 75.07234522368422,
+        "se": 0.04765957082805142,
+        "moe90": 0.07839999401214458,
+        "numerator_weighted": 145484712,
+        "denominator_weighted": 193792683
+      },
+      "b_unemployment_rate": {
+        "pct": 4.443738501748154,
+        "se": 0.02187650104541205,
+        "moe90": 0.03598684421970282,
+        "numerator_weighted": 6765606,
+        "denominator_weighted": 152250318
+      },
+      "b_pct_not_in_labor_force": {
+        "pct": 21.436498198438173,
+        "se": 0.047666949164356556,
+        "moe90": 0.07841213137536654,
+        "numerator_weighted": 41542365,
+        "denominator_weighted": 193792683
+      },
+      "c_pct_worked_from_home_among_at_work": {
+        "pct": 5.479397906548214,
+        "se": 0.028385561467764452,
+        "moe90": 0.04669424861447252,
+        "numerator_weighted": 7822321,
+        "denominator_weighted": 142758769
+      }
+    },
+    "e_vision_only_no_other_difficulty": {
+      "population": {
+        "count": 1674233,
+        "se": 16331.859091971128,
+        "moe90": 26865.908206292504
+      },
+      "pct_employed": {
+        "pct": 67.96527126152692,
+        "se": 0.510922660885088,
+        "moe90": 0.8404677771559698,
+        "numerator_weighted": 1137897,
+        "denominator_weighted": 1674233
+      }
+    },
+    "e_vision_plus_at_least_one_other_difficulty": {
+      "population": {
+        "count": 2111030,
+        "se": 21700.43557627358,
+        "moe90": 35697.21652297004
+      },
+      "pct_employed": {
+        "pct": 28.680596675556483,
+        "se": 0.41024848662387486,
+        "moe90": 0.6748587604962741,
+        "numerator_weighted": 605456,
+        "denominator_weighted": 2111030
+      }
+    },
+    "i_vision_wfh_pct_self_employed": {
+      "pct": 34.83875927278318,
+      "se": 2.4157038056305495,
+      "moe90": 3.973832760262254,
+      "numerator_weighted": 27192,
+      "denominator_weighted": 78051
+    }
+  },
+  "2024": {
+    "records_read_all_ages": 3422888,
+    "check_atwork_by_esr_weighted": {
+      "1": 150934671
+    },
+    "check_esr1_without_jwtrns_weighted": 0,
+    "with_vision_difficulty": {
+      "a_population": {
+        "count": 4394902,
+        "se": 36201.26462362883,
+        "moe90": 59551.08030586942
+      },
+      "b_pct_employed": {
+        "pct": 52.9082787283994,
+        "se": 0.35501079858597967,
+        "moe90": 0.5839927636739366,
+        "numerator_weighted": 2325267,
+        "denominator_weighted": 4394902
+      },
+      "b_unemployment_rate": {
+        "pct": 8.448468312042664,
+        "se": 0.24096187992725832,
+        "moe90": 0.39638229248033996,
+        "numerator_weighted": 214578,
+        "denominator_weighted": 2539845
+      },
+      "b_pct_not_in_labor_force": {
+        "pct": 42.20929158374862,
+        "se": 0.32011774573713325,
+        "moe90": 0.5265936917375842,
+        "numerator_weighted": 1855057,
+        "denominator_weighted": 4394902
+      },
+      "c_pct_worked_from_home_among_at_work": {
+        "pct": 10.634356702675719,
+        "se": 0.26344569890771524,
+        "moe90": 0.43336817470319156,
+        "numerator_weighted": 240089,
+        "denominator_weighted": 2257673
+      },
+      "d_bachelors_or_higher": {
+        "pct_employed": {
+          "pct": 72.83378832397918,
+          "se": 0.7138404959476936,
+          "moe90": 1.174267615833956,
+          "numerator_weighted": 601358,
+          "denominator_weighted": 825658
+        },
+        "pct_worked_from_home_among_at_work": {
+          "pct": 17.413555248987585,
+          "se": 0.6219434836177821,
+          "moe90": 1.0230970305512515,
+          "numerator_weighted": 101738,
+          "denominator_weighted": 584246
+        }
+      },
+      "d_less_than_bachelors": {
+        "pct_employed": {
+          "pct": 48.29899552958554,
+          "se": 0.38576233318469066,
+          "moe90": 0.6345790380888161,
+          "numerator_weighted": 1723909,
+          "denominator_weighted": 3569244
+        },
+        "pct_worked_from_home_among_at_work": {
+          "pct": 8.267525264024066,
+          "se": 0.28669319799205867,
+          "moe90": 0.47161031069693654,
+          "numerator_weighted": 138351,
+          "denominator_weighted": 1673427
+        }
+      }
+    },
+    "without_vision_difficulty": {
+      "a_population": {
+        "count": 198214418,
+        "se": 45428.18368755238,
+        "moe90": 74729.36216602367
+      },
+      "b_pct_employed": {
+        "pct": 76.41873609819847,
+        "se": 0.04577742076987181,
+        "moe90": 0.07530385716643913,
+        "numerator_weighted": 151472953,
+        "denominator_weighted": 198214418
+      },
+      "b_unemployment_rate": {
+        "pct": 4.508410059081015,
+        "se": 0.025937004806607364,
+        "moe90": 0.042666372906869116,
+        "numerator_weighted": 7151438,
+        "denominator_weighted": 158624391
+      },
+      "b_pct_not_in_labor_force": {
+        "pct": 19.97333362500401,
+        "se": 0.043177110236078856,
+        "moe90": 0.07102634633834971,
+        "numerator_weighted": 39590027,
+        "denominator_weighted": 198214418
+      },
+      "c_pct_worked_from_home_among_at_work": {
+        "pct": 13.32691960864047,
+        "se": 0.03730670707807857,
+        "moe90": 0.06136953314343925,
+        "numerator_weighted": 19814064,
+        "denominator_weighted": 148676998
+      },
+      "d_bachelors_or_higher": {
+        "pct_employed": {
+          "pct": 85.90834869244162,
+          "se": 0.06168259732974829,
+          "moe90": 0.10146787260743594,
+          "numerator_weighted": 60719642,
+          "denominator_weighted": 70679559
+        },
+        "pct_worked_from_home_among_at_work": {
+          "pct": 20.251540372689288,
+          "se": 0.07000362098391089,
+          "moe90": 0.11515595651853341,
+          "numerator_weighted": 12116464,
+          "denominator_weighted": 59829839
+        }
+      },
+      "d_less_than_bachelors": {
+        "pct_employed": {
+          "pct": 71.15961213396567,
+          "se": 0.06207864268011717,
+          "moe90": 0.10211936720879274,
+          "numerator_weighted": 90753311,
+          "denominator_weighted": 127534859
+        },
+        "pct_worked_from_home_among_at_work": {
+          "pct": 8.663867349995963,
+          "se": 0.035922308882680755,
+          "moe90": 0.059092198112009844,
+          "numerator_weighted": 7697600,
+          "denominator_weighted": 88847159
+        }
+      }
+    },
+    "e_vision_only_no_other_difficulty": {
+      "population": {
+        "count": 2167925,
+        "se": 21330.52980237481,
+        "moe90": 35088.72152490656
+      },
+      "pct_employed": {
+        "pct": 72.11554827773101,
+        "se": 0.49553299209379237,
+        "moe90": 0.8151517719942885,
+        "numerator_weighted": 1563411,
+        "denominator_weighted": 2167925
+      }
+    },
+    "e_vision_plus_at_least_one_other_difficulty": {
+      "population": {
+        "count": 2226977,
+        "se": 24459.311525470213,
+        "moe90": 40235.5674593985
+      },
+      "pct_employed": {
+        "pct": 34.21032188477923,
+        "se": 0.4985709326371258,
+        "moe90": 0.820149184188072,
+        "numerator_weighted": 761856,
+        "denominator_weighted": 2226977
+      }
+    },
+    "i_vision_wfh_pct_self_employed": {
+      "pct": 17.32440886504588,
+      "se": 1.1161711310393814,
+      "moe90": 1.8361015105597824,
+      "numerator_weighted": 41594,
+      "denominator_weighted": 240089
+    },
+    "f_vision_difficulty_indiana_population": {
+      "count": 105333,
+      "se": 4160.619665386395,
+      "moe90": 6844.219349560621
+    },
+    "g_vision_bachelors_pct_employed_by_age": {
+      "age_18_34": {
+        "pct": 81.55648492090293,
+        "se": 1.1824410148524487,
+        "moe90": 1.945115469432278,
+        "numerator_weighted": 156984,
+        "denominator_weighted": 192485
+      },
+      "age_35_49": {
+        "pct": 79.90636739471051,
+        "se": 1.1168502747663214,
+        "moe90": 1.8372187019905988,
+        "numerator_weighted": 211644,
+        "denominator_weighted": 264865
+      },
+      "age_50_64": {
+        "pct": 63.18896141273065,
+        "se": 1.1645060994037821,
+        "moe90": 1.9156125335192216,
+        "numerator_weighted": 232730,
+        "denominator_weighted": 368308
+      }
+    },
+    "h_vision_at_work_median_earnings": {
+      "worked_from_home": {
+        "weighted_median_PERNP_as_reported": 50000.0,
+        "weighted_median_PERNP_times_ADJINC": 50762.5,
+        "weighted_median_PERNP_excluding_zero_or_negative_earnings": 52000.0,
+        "unweighted_n": 2271,
+        "weighted_n": 240089
+      },
+      "did_not_work_from_home": {
+        "weighted_median_PERNP_as_reported": 38000.0,
+        "weighted_median_PERNP_times_ADJINC": 38579.5,
+        "weighted_median_PERNP_excluding_zero_or_negative_earnings": 38000.0,
+        "unweighted_n": 17730,
+        "weighted_n": 2017584
+      },
+      "ADJINC_factor": 1.01525
+    }
+  }
+}

@@ -1,0 +1,844 @@
+{
+ "years": [
+  2019,
+  2021,
+  2022,
+  2023,
+  2024
+ ],
+ "official": {
+  "2019": {
+   "published_employment_rate": 46.17,
+   "mine_employment_rate": 46.06,
+   "mine_employment_rate_moe": 0.6,
+   "published_unemployment_rate": 8.53,
+   "mine_unemployment_rate": 8.63,
+   "published_nilf": 49.52,
+   "mine_nilf": 49.59,
+   "published_population": 3755672,
+   "mine_population": 3785263,
+   "published_employed": 1734139,
+   "mine_employed": 1743353,
+   "employment_rate_difference": -0.11,
+   "population_difference_pct": 0.79
+  },
+  "2021": {
+   "published_employment_rate": 48.2,
+   "mine_employment_rate": 47.96,
+   "mine_employment_rate_moe": 0.58,
+   "published_unemployment_rate": 11.33,
+   "mine_unemployment_rate": 11.65,
+   "published_nilf": 45.64,
+   "mine_nilf": 45.72,
+   "published_population": 4156273,
+   "mine_population": 4198571,
+   "published_employed": 2003268,
+   "mine_employed": 2013445,
+   "employment_rate_difference": -0.24,
+   "population_difference_pct": 1.02
+  },
+  "2022": {
+   "published_employment_rate": 51.18,
+   "mine_employment_rate": 50.94,
+   "mine_employment_rate_moe": 0.55,
+   "published_unemployment_rate": 7.75,
+   "mine_unemployment_rate": 7.8,
+   "published_nilf": 44.52,
+   "mine_nilf": 44.75,
+   "published_population": 4237061,
+   "mine_population": 4227106,
+   "published_employed": 2168532,
+   "mine_employed": 2153324,
+   "employment_rate_difference": -0.24,
+   "population_difference_pct": -0.23
+  },
+  "2023": {
+   "published_employment_rate": 52.31,
+   "mine_employment_rate": 52.16,
+   "mine_employment_rate_moe": 0.54,
+   "published_unemployment_rate": 8.05,
+   "mine_unemployment_rate": 8.02,
+   "published_nilf": 43.1,
+   "mine_nilf": 43.29,
+   "published_population": 4278519,
+   "mine_population": 4268848,
+   "published_employed": 2238272,
+   "mine_employed": 2226808,
+   "employment_rate_difference": -0.15,
+   "population_difference_pct": -0.23
+  },
+  "2024": {
+   "published_employment_rate": 52.93,
+   "mine_employment_rate": 52.91,
+   "mine_employment_rate_moe": 0.58,
+   "published_unemployment_rate": 8.48,
+   "mine_unemployment_rate": 8.45,
+   "published_nilf": 42.16,
+   "mine_nilf": 42.21,
+   "published_population": 4420732,
+   "mine_population": 4394902,
+   "published_employed": 2340078,
+   "mine_employed": 2325267,
+   "employment_rate_difference": -0.02,
+   "population_difference_pct": -0.58
+  }
+ },
+ "official_indiana_pooled_2022_on": 52.0,
+ "official_indiana_population_last": 105576,
+ "checks": {
+  "emp_vision_2019": {
+   "est": 46.1,
+   "moe": 0.6,
+   "clear": true
+  },
+  "emp_others_2019": {
+   "est": 75.1,
+   "moe": 0.1,
+   "clear": true
+  },
+  "wfh_vision_2019": {
+   "est": 4.6,
+   "moe": 0.3,
+   "clear": true
+  },
+  "wfh_others_2019": {
+   "est": 5.5,
+   "moe": 0.0,
+   "clear": true
+  },
+  "wfh_gap_2019": {
+   "est": 0.9,
+   "moe": 0.3,
+   "clear": true
+  },
+  "not_employed_vision_2019": {
+   "est": 53.9,
+   "moe": 0.6,
+   "clear": true
+  },
+  "emp_vision_2021": {
+   "est": 48.0,
+   "moe": 0.6,
+   "clear": true
+  },
+  "emp_others_2021": {
+   "est": 73.3,
+   "moe": 0.1,
+   "clear": true
+  },
+  "wfh_vision_2021": {
+   "est": 13.9,
+   "moe": 0.4,
+   "clear": true
+  },
+  "wfh_others_2021": {
+   "est": 18.1,
+   "moe": 0.1,
+   "clear": true
+  },
+  "wfh_gap_2021": {
+   "est": 4.2,
+   "moe": 0.4,
+   "clear": true
+  },
+  "not_employed_vision_2021": {
+   "est": 52.0,
+   "moe": 0.6,
+   "clear": true
+  },
+  "emp_vision_2022": {
+   "est": 50.9,
+   "moe": 0.5,
+   "clear": true
+  },
+  "emp_others_2022": {
+   "est": 75.7,
+   "moe": 0.1,
+   "clear": true
+  },
+  "wfh_vision_2022": {
+   "est": 11.2,
+   "moe": 0.5,
+   "clear": true
+  },
+  "wfh_others_2022": {
+   "est": 15.3,
+   "moe": 0.1,
+   "clear": true
+  },
+  "wfh_gap_2022": {
+   "est": 4.1,
+   "moe": 0.5,
+   "clear": true
+  },
+  "not_employed_vision_2022": {
+   "est": 49.1,
+   "moe": 0.5,
+   "clear": true
+  },
+  "emp_vision_2023": {
+   "est": 52.2,
+   "moe": 0.5,
+   "clear": true
+  },
+  "emp_others_2023": {
+   "est": 76.3,
+   "moe": 0.1,
+   "clear": true
+  },
+  "wfh_vision_2023": {
+   "est": 10.9,
+   "moe": 0.4,
+   "clear": true
+  },
+  "wfh_others_2023": {
+   "est": 14.0,
+   "moe": 0.1,
+   "clear": true
+  },
+  "wfh_gap_2023": {
+   "est": 3.1,
+   "moe": 0.4,
+   "clear": true
+  },
+  "not_employed_vision_2023": {
+   "est": 47.8,
+   "moe": 0.5,
+   "clear": true
+  },
+  "emp_vision_2024": {
+   "est": 52.9,
+   "moe": 0.6,
+   "clear": true
+  },
+  "emp_others_2024": {
+   "est": 76.4,
+   "moe": 0.1,
+   "clear": true
+  },
+  "wfh_vision_2024": {
+   "est": 10.6,
+   "moe": 0.4,
+   "clear": true
+  },
+  "wfh_others_2024": {
+   "est": 13.3,
+   "moe": 0.1,
+   "clear": true
+  },
+  "wfh_gap_2024": {
+   "est": 2.7,
+   "moe": 0.4,
+   "clear": true
+  },
+  "not_employed_vision_2024": {
+   "est": 47.1,
+   "moe": 0.6,
+   "clear": true
+  },
+  "emp_change_vision": {
+   "est": 6.9,
+   "moe": 0.8,
+   "clear": true
+  },
+  "emp_change_others": {
+   "est": 1.3,
+   "moe": 0.1,
+   "clear": true
+  },
+  "emp_change_vision_minus_others": {
+   "est": 5.5,
+   "moe": 0.8,
+   "clear": true
+  },
+  "wfh_gap_2024_college1": {
+   "est": 2.8,
+   "moe": 1.0,
+   "clear": true
+  },
+  "emp_gap_2024_college1": {
+   "est": 13.1,
+   "moe": 1.2,
+   "clear": true
+  },
+  "wfh_gap_2024_college0": {
+   "est": 0.4,
+   "moe": 0.5,
+   "clear": false
+  },
+  "emp_gap_2024_college0": {
+   "est": 22.9,
+   "moe": 0.6,
+   "clear": true
+  },
+  "emp_vision_degree_minus_others_nodegree_2024": {
+   "est": 1.7,
+   "moe": 1.2,
+   "clear": true
+  },
+  "wfh_gap_2024_office_admin": {
+   "est": 1.4,
+   "moe": 1.5,
+   "clear": false
+  },
+  "emp_gap_2024_degree_age_18-34": {
+   "est": 6.0,
+   "moe": 1.9,
+   "clear": true
+  },
+  "emp_gap_2024_degree_age_35-49": {
+   "est": 9.4,
+   "moe": 1.9,
+   "clear": true
+  },
+  "emp_gap_2024_degree_age_50-64": {
+   "est": 16.5,
+   "moe": 1.9,
+   "clear": true
+  },
+  "emp_gap_2024_degree_vision_only": {
+   "est": 3.2,
+   "moe": 1.3,
+   "clear": true
+  },
+  "degree_holders_vision_2024": {
+   "est": 825658.0,
+   "moe": 22231.0,
+   "clear": true
+  },
+  "degree_holders_vision_not_employed_2024": {
+   "est": 224300.0,
+   "moe": 11015.0,
+   "clear": true
+  },
+  "degree_holders_vision_nilf_2024": {
+   "est": 193818.0,
+   "moe": 9645.0,
+   "clear": true
+  },
+  "not_employed_vision_other_dis_2024": {
+   "est": 65.8,
+   "moe": 0.8,
+   "clear": true
+  },
+  "population_vision_other_dis_2024": {
+   "est": 2226977.0,
+   "moe": 40236.0,
+   "clear": true
+  },
+  "not_employed_vision_only_2024": {
+   "est": 27.9,
+   "moe": 0.8,
+   "clear": true
+  },
+  "population_vision_only_2024": {
+   "est": 2167925.0,
+   "moe": 35089.0,
+   "clear": true
+  },
+  "not_employed_vision_no_degree_2024": {
+   "est": 51.7,
+   "moe": 0.6,
+   "clear": true
+  },
+  "population_vision_no_degree_2024": {
+   "est": 3569244.0,
+   "moe": 50494.0,
+   "clear": true
+  },
+  "not_employed_vision_no_degree_other_dis_2024": {
+   "est": 69.0,
+   "moe": 0.8,
+   "clear": true
+  },
+  "population_vision_no_degree_other_dis_2024": {
+   "est": 1931874.0,
+   "moe": 36961.0,
+   "clear": true
+  },
+  "not_employed_vision_degree_only_2024": {
+   "est": 17.3,
+   "moe": 1.3,
+   "clear": true
+  },
+  "population_vision_degree_only_2024": {
+   "est": 530555.0,
+   "moe": 17549.0,
+   "clear": true
+  },
+  "not_employed_others_2024": {
+   "est": 23.6,
+   "moe": 0.1,
+   "clear": true
+  },
+  "population_others_2024": {
+   "est": 198214418.0,
+   "moe": 74729.0,
+   "clear": true
+  },
+  "not_employed_vision_50_64_2024": {
+   "est": 55.7,
+   "moe": 0.8,
+   "clear": true
+  },
+  "population_vision_50_64_2024": {
+   "est": 2012662.0,
+   "moe": 33801.0,
+   "clear": true
+  },
+  "unemployment_rate_vision_2024": {
+   "est": 8.4,
+   "moe": 0.4,
+   "clear": true
+  },
+  "nilf_vision_2024": {
+   "est": 42.2,
+   "moe": 0.5,
+   "clear": true
+  },
+  "indiana_emp_change": {
+   "est": 4.7,
+   "moe": 4.0,
+   "clear": true
+  },
+  "indiana_wfh_gap": {
+   "est": 1.8,
+   "moe": 1.7,
+   "clear": true
+  },
+  "share_home_rate_method": {
+   "est": 50.8,
+   "moe": 7.2,
+   "clear": true
+  },
+  "share_home_count_method": {
+   "est": 28.6,
+   "moe": 2.9,
+   "clear": true
+  },
+  "share_home_rate_method_otherdis0": {
+   "est": 113.3,
+   "moe": 32.7,
+   "clear": true
+  },
+  "share_home_rate_method_otherdis1": {
+   "est": 40.1,
+   "moe": 9.1,
+   "clear": true
+  },
+  "share_home_fixed_mix_two_groups": {
+   "est": 69.1,
+   "moe": 12.4,
+   "clear": true
+  },
+  "share_home_fixed_mix_twelve_groups": {
+   "est": 79.7,
+   "moe": 16.6,
+   "clear": true
+  },
+  "home_rate_change": {
+   "est": 3.4,
+   "moe": 0.27,
+   "clear": true
+  },
+  "onsite_rate_change": {
+   "est": 3.29,
+   "moe": 0.84,
+   "clear": true
+  },
+  "gain_total": {
+   "est": 6.9,
+   "moe": 0.8,
+   "clear": true
+  },
+  "gain_within_two_groups_first_mix": {
+   "est": 4.9,
+   "moe": 0.8,
+   "clear": true
+  },
+  "gain_mix_two_groups_first_mix": {
+   "est": 1.9,
+   "moe": 0.3,
+   "clear": true
+  },
+  "gain_within_two_groups_last_mix": {
+   "est": 4.8,
+   "moe": 0.8,
+   "clear": true
+  },
+  "gain_mix_two_groups_last_mix": {
+   "est": 2.0,
+   "moe": 0.3,
+   "clear": true
+  },
+  "gain_within_two_groups_average_mix": {
+   "est": 4.9,
+   "moe": 0.8,
+   "clear": true
+  },
+  "gain_mix_two_groups_average_mix": {
+   "est": 2.0,
+   "moe": 0.3,
+   "clear": true
+  },
+  "gain_within_twelve_groups_first_mix": {
+   "est": 4.1,
+   "moe": 0.8,
+   "clear": true
+  },
+  "gain_mix_twelve_groups_first_mix": {
+   "est": 2.8,
+   "moe": 0.4,
+   "clear": true
+  },
+  "gain_within_twelve_groups_last_mix": {
+   "est": 4.0,
+   "moe": 0.8,
+   "clear": true
+  },
+  "gain_mix_twelve_groups_last_mix": {
+   "est": 2.8,
+   "moe": 0.4,
+   "clear": true
+  },
+  "gain_within_twelve_groups_average_mix": {
+   "est": 4.1,
+   "moe": 0.8,
+   "clear": true
+  },
+  "gain_mix_twelve_groups_average_mix": {
+   "est": 2.8,
+   "moe": 0.3,
+   "clear": true
+  },
+  "wfh_vision_rates_others_mix_education": {
+   "est": 11.9,
+   "moe": 0.5,
+   "clear": true
+  },
+  "wfh_others_rates_vision_mix_education": {
+   "est": 11.7,
+   "moe": 0.1,
+   "clear": true
+  },
+  "gap_explained_pct_education_method1": {
+   "est": 48.8,
+   "moe": 11.1,
+   "clear": true
+  },
+  "gap_explained_pct_education_method2": {
+   "est": 61.8,
+   "moe": 10.1,
+   "clear": true
+  },
+  "wfh_vision_rates_others_mix_occupation": {
+   "est": 11.5,
+   "moe": 0.5,
+   "clear": true
+  },
+  "wfh_others_rates_vision_mix_occupation": {
+   "est": 12.1,
+   "moe": 0.1,
+   "clear": true
+  },
+  "gap_explained_pct_occupation_method1": {
+   "est": 33.4,
+   "moe": 7.8,
+   "clear": true
+  },
+  "gap_explained_pct_occupation_method2": {
+   "est": 45.0,
+   "moe": 7.8,
+   "clear": true
+  },
+  "wfh_vision_rates_others_mix_education_and_occupation": {
+   "est": 12.1,
+   "moe": 0.5,
+   "clear": true
+  },
+  "wfh_others_rates_vision_mix_education_and_occupation": {
+   "est": 11.5,
+   "moe": 0.1,
+   "clear": true
+  },
+  "gap_explained_pct_education_and_occupation_method1": {
+   "est": 55.3,
+   "moe": 12.1,
+   "clear": true
+  },
+  "gap_explained_pct_education_and_occupation_method2": {
+   "est": 69.1,
+   "moe": 11.3,
+   "clear": true
+  }
+ },
+ "work_experience": {
+  "recent_work_pct_2019_vision1_all": {
+   "est": 30.5,
+   "moe": 0.7,
+   "clear": true
+  },
+  "last_year_work_pct_2019_vision1_all": {
+   "est": 10.7,
+   "moe": 0.5,
+   "clear": true
+  },
+  "recent_work_count_2019_vision1_all": {
+   "est": 622337.0,
+   "moe": 17774.0,
+   "clear": true
+  },
+  "not_employed_count_2019_vision1_all": {
+   "est": 2041910.0,
+   "moe": 37038.0,
+   "clear": true
+  },
+  "recent_work_pct_2019_vision1_degree": {
+   "est": 42.7,
+   "moe": 2.5,
+   "clear": true
+  },
+  "last_year_work_pct_2019_vision1_degree": {
+   "est": 14.4,
+   "moe": 1.4,
+   "clear": true
+  },
+  "recent_work_count_2019_vision1_degree": {
+   "est": 84843.0,
+   "moe": 6552.0,
+   "clear": true
+  },
+  "not_employed_count_2019_vision1_degree": {
+   "est": 198616.0,
+   "moe": 9886.0,
+   "clear": true
+  },
+  "recent_work_pct_2019_vision1_no_degree": {
+   "est": 29.2,
+   "moe": 0.7,
+   "clear": true
+  },
+  "last_year_work_pct_2019_vision1_no_degree": {
+   "est": 10.3,
+   "moe": 0.5,
+   "clear": true
+  },
+  "recent_work_count_2019_vision1_no_degree": {
+   "est": 537494.0,
+   "moe": 16927.0,
+   "clear": true
+  },
+  "not_employed_count_2019_vision1_no_degree": {
+   "est": 1843294.0,
+   "moe": 35518.0,
+   "clear": true
+  },
+  "recent_work_pct_2019_vision0_all": {
+   "est": 46.2,
+   "moe": 0.3,
+   "clear": true
+  },
+  "last_year_work_pct_2019_vision0_all": {
+   "est": 21.9,
+   "moe": 0.1,
+   "clear": true
+  },
+  "recent_work_pct_2019_vision0_degree": {
+   "est": 57.9,
+   "moe": 0.4,
+   "clear": true
+  },
+  "last_year_work_pct_2019_vision0_degree": {
+   "est": 25.7,
+   "moe": 0.3,
+   "clear": true
+  },
+  "recent_work_pct_2019_vision0_no_degree": {
+   "est": 43.4,
+   "moe": 0.3,
+   "clear": true
+  },
+  "last_year_work_pct_2019_vision0_no_degree": {
+   "est": 21.0,
+   "moe": 0.2,
+   "clear": true
+  },
+  "recent_work_pct_2019_vision1_age_18-34": {
+   "est": 42.3,
+   "moe": 1.9,
+   "clear": true
+  },
+  "recent_work_pct_2019_vision1_age_35-49": {
+   "est": 32.7,
+   "moe": 1.5,
+   "clear": true
+  },
+  "recent_work_pct_2019_vision1_age_50-64": {
+   "est": 25.4,
+   "moe": 0.8,
+   "clear": true
+  },
+  "check_emp_vision_2019": {
+   "est": 46.1,
+   "moe": 0.6,
+   "clear": true
+  },
+  "recent_work_pct_2024_vision1_all": {
+   "est": 35.3,
+   "moe": 0.9,
+   "clear": true
+  },
+  "last_year_work_pct_2024_vision1_all": {
+   "est": 12.6,
+   "moe": 0.5,
+   "clear": true
+  },
+  "recent_work_count_2024_vision1_all": {
+   "est": 731297.0,
+   "moe": 20313.0,
+   "clear": true
+  },
+  "not_employed_count_2024_vision1_all": {
+   "est": 2069635.0,
+   "moe": 33430.0,
+   "clear": true
+  },
+  "recent_work_pct_2024_vision1_degree": {
+   "est": 49.5,
+   "moe": 2.4,
+   "clear": true
+  },
+  "last_year_work_pct_2024_vision1_degree": {
+   "est": 19.2,
+   "moe": 2.0,
+   "clear": true
+  },
+  "recent_work_count_2024_vision1_degree": {
+   "est": 111088.0,
+   "moe": 7344.0,
+   "clear": true
+  },
+  "not_employed_count_2024_vision1_degree": {
+   "est": 224300.0,
+   "moe": 11015.0,
+   "clear": true
+  },
+  "recent_work_pct_2024_vision1_no_degree": {
+   "est": 33.6,
+   "moe": 0.9,
+   "clear": true
+  },
+  "last_year_work_pct_2024_vision1_no_degree": {
+   "est": 11.8,
+   "moe": 0.6,
+   "clear": true
+  },
+  "recent_work_count_2024_vision1_no_degree": {
+   "est": 620209.0,
+   "moe": 19301.0,
+   "clear": true
+  },
+  "not_employed_count_2024_vision1_no_degree": {
+   "est": 1845335.0,
+   "moe": 31026.0,
+   "clear": true
+  },
+  "recent_work_pct_2024_vision0_all": {
+   "est": 50.2,
+   "moe": 0.2,
+   "clear": true
+  },
+  "last_year_work_pct_2024_vision0_all": {
+   "est": 22.7,
+   "moe": 0.1,
+   "clear": true
+  },
+  "recent_work_pct_2024_vision0_degree": {
+   "est": 61.1,
+   "moe": 0.4,
+   "clear": true
+  },
+  "last_year_work_pct_2024_vision0_degree": {
+   "est": 26.5,
+   "moe": 0.3,
+   "clear": true
+  },
+  "recent_work_pct_2024_vision0_no_degree": {
+   "est": 47.3,
+   "moe": 0.2,
+   "clear": true
+  },
+  "last_year_work_pct_2024_vision0_no_degree": {
+   "est": 21.7,
+   "moe": 0.2,
+   "clear": true
+  },
+  "recent_work_pct_2024_vision1_age_18-34": {
+   "est": 45.4,
+   "moe": 1.8,
+   "clear": true
+  },
+  "recent_work_pct_2024_vision1_age_35-49": {
+   "est": 36.4,
+   "moe": 1.5,
+   "clear": true
+  },
+  "recent_work_pct_2024_vision1_age_50-64": {
+   "est": 30.7,
+   "moe": 1.1,
+   "clear": true
+  },
+  "check_emp_vision_2024": {
+   "est": 52.9,
+   "moe": 0.6,
+   "clear": true
+  }
+ },
+ "median_earnings": {
+  "median_2019_vision_home": {
+   "est": 35000.0,
+   "moe": 3527,
+   "records": 747
+  },
+  "median_2019_vision_onsite": {
+   "est": 30000.0,
+   "moe": 0,
+   "records": 15107
+  },
+  "median_2019_others_home": {
+   "est": 48000.0,
+   "moe": 840,
+   "records": 76599
+  },
+  "median_2019_others_onsite": {
+   "est": 40000.0,
+   "moe": 0,
+   "records": 1263837
+  },
+  "median_2024_vision_home": {
+   "est": 50000.0,
+   "moe": 4383,
+   "records": 2271
+  },
+  "median_2024_vision_onsite": {
+   "est": 38000.0,
+   "moe": 1207,
+   "records": 17730
+  },
+  "median_2024_others_home": {
+   "est": 73800.0,
+   "moe": 1624,
+   "records": 190410
+  },
+  "median_2024_others_onsite": {
+   "est": 50000.0,
+   "moe": 0,
+   "records": 1192972
+  }
+ },
+ "independent": {
+  "figures_compared": 40,
+  "largest_difference_in_a_percent": 0.0,
+  "largest_difference_in_a_count": 0.0
+ }
+}
