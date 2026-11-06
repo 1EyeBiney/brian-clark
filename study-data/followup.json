@@ -1,0 +1,847 @@
+{
+ "years": [
+  2019,
+  2021,
+  2022,
+  2023,
+  2024
+ ],
+ "results": {
+  "wfh_2019_vision1_college1": {
+   "pct": 7.7,
+   "moe": 0.9,
+   "records": 3833
+  },
+  "wfh_2019_vision1_college0": {
+   "pct": 3.7,
+   "moe": 0.4,
+   "records": 12021
+  },
+  "wfh_2019_vision0_college1": {
+   "pct": 7.6,
+   "moe": 0.1,
+   "records": 517854
+  },
+  "wfh_2019_vision0_college0": {
+   "pct": 4.2,
+   "moe": 0.1,
+   "records": 822582
+  },
+  "wfh_2021_vision1_college1": {
+   "pct": 24.4,
+   "moe": 1.2,
+   "records": 4680
+  },
+  "wfh_2021_vision1_college0": {
+   "pct": 10.2,
+   "moe": 0.5,
+   "records": 12875
+  },
+  "wfh_2021_vision0_college1": {
+   "pct": 29.7,
+   "moe": 0.1,
+   "records": 522811
+  },
+  "wfh_2021_vision0_college0": {
+   "pct": 10.7,
+   "moe": 0.1,
+   "records": 760112
+  },
+  "wfh_2022_vision1_college1": {
+   "pct": 20.3,
+   "moe": 1.3,
+   "records": 4996
+  },
+  "wfh_2022_vision1_college0": {
+   "pct": 8.1,
+   "moe": 0.5,
+   "records": 13807
+  },
+  "wfh_2022_vision0_college1": {
+   "pct": 24.2,
+   "moe": 0.1,
+   "records": 558601
+  },
+  "wfh_2022_vision0_college0": {
+   "pct": 9.6,
+   "moe": 0.1,
+   "records": 803404
+  },
+  "wfh_2023_vision1_college1": {
+   "pct": 17.9,
+   "moe": 1.1,
+   "records": 5229
+  },
+  "wfh_2023_vision1_college0": {
+   "pct": 8.4,
+   "moe": 0.5,
+   "records": 14021
+  },
+  "wfh_2023_vision0_college1": {
+   "pct": 21.3,
+   "moe": 0.1,
+   "records": 570886
+  },
+  "wfh_2023_vision0_college0": {
+   "pct": 9.1,
+   "moe": 0.1,
+   "records": 807965
+  },
+  "wfh_2024_vision1_college1": {
+   "pct": 17.4,
+   "moe": 1.0,
+   "records": 5508
+  },
+  "wfh_2024_vision1_college0": {
+   "pct": 8.3,
+   "moe": 0.5,
+   "records": 14493
+  },
+  "wfh_2024_vision0_college1": {
+   "pct": 20.3,
+   "moe": 0.1,
+   "records": 580847
+  },
+  "wfh_2024_vision0_college0": {
+   "pct": 8.7,
+   "moe": 0.1,
+   "records": 802535
+  },
+  "emp_2019_vision1_college1": {
+   "pct": 66.7,
+   "moe": 1.3,
+   "records": 5762
+  },
+  "emp_2019_vision1_college0": {
+   "pct": 42.2,
+   "moe": 0.7,
+   "records": 29710
+  },
+  "emp_2019_vision0_college1": {
+   "pct": 85.2,
+   "moe": 0.1,
+   "records": 620423
+  },
+  "emp_2019_vision0_college0": {
+   "pct": 70.3,
+   "moe": 0.1,
+   "records": 1212461
+  },
+  "emp_2021_vision1_college1": {
+   "pct": 69.4,
+   "moe": 1.1,
+   "records": 6948
+  },
+  "emp_2021_vision1_college0": {
+   "pct": 43.4,
+   "moe": 0.7,
+   "records": 31572
+  },
+  "emp_2021_vision0_college1": {
+   "pct": 84.1,
+   "moe": 0.1,
+   "records": 636599
+  },
+  "emp_2021_vision0_college0": {
+   "pct": 67.8,
+   "moe": 0.1,
+   "records": 1176378
+  },
+  "emp_2022_vision1_college1": {
+   "pct": 73.3,
+   "moe": 1.2,
+   "records": 7072
+  },
+  "emp_2022_vision1_college0": {
+   "pct": 46.3,
+   "moe": 0.6,
+   "records": 32601
+  },
+  "emp_2022_vision0_college1": {
+   "pct": 85.5,
+   "moe": 0.1,
+   "records": 669684
+  },
+  "emp_2022_vision0_college0": {
+   "pct": 70.5,
+   "moe": 0.1,
+   "records": 1201320
+  },
+  "emp_2023_vision1_college1": {
+   "pct": 71.9,
+   "moe": 1.2,
+   "records": 7491
+  },
+  "emp_2023_vision1_college0": {
+   "pct": 47.7,
+   "moe": 0.6,
+   "records": 32588
+  },
+  "emp_2023_vision0_college1": {
+   "pct": 86.0,
+   "moe": 0.1,
+   "records": 681197
+  },
+  "emp_2023_vision0_college0": {
+   "pct": 71.1,
+   "moe": 0.1,
+   "records": 1196493
+  },
+  "emp_2024_vision1_college1": {
+   "pct": 72.8,
+   "moe": 1.2,
+   "records": 7745
+  },
+  "emp_2024_vision1_college0": {
+   "pct": 48.3,
+   "moe": 0.6,
+   "records": 32667
+  },
+  "emp_2024_vision0_college1": {
+   "pct": 85.9,
+   "moe": 0.1,
+   "records": 692216
+  },
+  "emp_2024_vision0_college0": {
+   "pct": 71.2,
+   "moe": 0.1,
+   "records": 1185124
+  },
+  "college_share_2019_vision1": {
+   "pct": 15.8,
+   "moe": 0.4,
+   "records": 35472
+  },
+  "college_share_employed_2019_vision1": {
+   "pct": 22.8,
+   "moe": 0.7,
+   "records": 16342
+  },
+  "college_share_2019_vision0": {
+   "pct": 31.9,
+   "moe": 0.1,
+   "records": 1832884
+  },
+  "college_share_employed_2019_vision0": {
+   "pct": 36.2,
+   "moe": 0.1,
+   "records": 1364767
+  },
+  "college_share_2021_vision1": {
+   "pct": 17.7,
+   "moe": 0.4,
+   "records": 38520
+  },
+  "college_share_employed_2021_vision1": {
+   "pct": 25.5,
+   "moe": 0.8,
+   "records": 18162
+  },
+  "college_share_2021_vision0": {
+   "pct": 33.8,
+   "moe": 0.1,
+   "records": 1812977
+  },
+  "college_share_employed_2021_vision0": {
+   "pct": 38.7,
+   "moe": 0.1,
+   "records": 1309722
+  },
+  "college_share_2022_vision1": {
+   "pct": 17.3,
+   "moe": 0.4,
+   "records": 39673
+  },
+  "college_share_employed_2022_vision1": {
+   "pct": 24.9,
+   "moe": 0.7,
+   "records": 19437
+  },
+  "college_share_2022_vision0": {
+   "pct": 34.4,
+   "moe": 0.1,
+   "records": 1871004
+  },
+  "college_share_employed_2022_vision0": {
+   "pct": 38.8,
+   "moe": 0.2,
+   "records": 1389562
+  },
+  "college_share_2023_vision1": {
+   "pct": 18.5,
+   "moe": 0.4,
+   "records": 40079
+  },
+  "college_share_employed_2023_vision1": {
+   "pct": 25.5,
+   "moe": 0.7,
+   "records": 19919
+  },
+  "college_share_2023_vision0": {
+   "pct": 35.0,
+   "moe": 0.1,
+   "records": 1877690
+  },
+  "college_share_employed_2023_vision0": {
+   "pct": 39.5,
+   "moe": 0.2,
+   "records": 1405033
+  },
+  "college_share_2024_vision1": {
+   "pct": 18.8,
+   "moe": 0.4,
+   "records": 40412
+  },
+  "college_share_employed_2024_vision1": {
+   "pct": 25.9,
+   "moe": 0.7,
+   "records": 20582
+  },
+  "college_share_2024_vision0": {
+   "pct": 35.7,
+   "moe": 0.2,
+   "records": 1877340
+  },
+  "college_share_employed_2024_vision0": {
+   "pct": 40.1,
+   "moe": 0.2,
+   "records": 1409011
+  },
+  "occ_dist_2019_vision1_management_professional": {
+   "pct": 29.5,
+   "moe": 0.7,
+   "records": 15854
+  },
+  "occ_wfh_2019_vision1_management_professional": {
+   "pct": 7.0,
+   "moe": 0.7,
+   "records": 5007
+  },
+  "occ_dist_2019_vision1_office_admin": {
+   "pct": 11.1,
+   "moe": 0.5,
+   "records": 15854
+  },
+  "occ_wfh_2019_vision1_office_admin": {
+   "pct": 4.5,
+   "moe": 1.0,
+   "records": 1890
+  },
+  "occ_dist_2019_vision1_sales": {
+   "pct": 9.9,
+   "moe": 0.4,
+   "records": 15854
+  },
+  "occ_wfh_2019_vision1_sales": {
+   "pct": 5.1,
+   "moe": 1.3,
+   "records": 1566
+  },
+  "occ_dist_2019_vision1_service": {
+   "pct": 23.4,
+   "moe": 0.7,
+   "records": 15854
+  },
+  "occ_wfh_2019_vision1_service": {
+   "pct": 4.3,
+   "moe": 0.7,
+   "records": 3400
+  },
+  "occ_dist_2019_vision1_construction_production_transport": {
+   "pct": 26.1,
+   "moe": 0.7,
+   "records": 15854
+  },
+  "occ_wfh_2019_vision1_construction_production_transport": {
+   "pct": 2.1,
+   "moe": 0.4,
+   "records": 3991
+  },
+  "occ_dist_2019_vision0_management_professional": {
+   "pct": 40.4,
+   "moe": 0.1,
+   "records": 1340436
+  },
+  "occ_wfh_2019_vision0_management_professional": {
+   "pct": 7.5,
+   "moe": 0.1,
+   "records": 579567
+  },
+  "occ_dist_2019_vision0_office_admin": {
+   "pct": 10.6,
+   "moe": 0.1,
+   "records": 1340436
+  },
+  "occ_wfh_2019_vision0_office_admin": {
+   "pct": 5.0,
+   "moe": 0.1,
+   "records": 144659
+  },
+  "occ_dist_2019_vision0_sales": {
+   "pct": 9.5,
+   "moe": 0.1,
+   "records": 1340436
+  },
+  "occ_wfh_2019_vision0_sales": {
+   "pct": 7.1,
+   "moe": 0.1,
+   "records": 123598
+  },
+  "occ_dist_2019_vision0_service": {
+   "pct": 17.3,
+   "moe": 0.1,
+   "records": 1340436
+  },
+  "occ_wfh_2019_vision0_service": {
+   "pct": 3.9,
+   "moe": 0.1,
+   "records": 209783
+  },
+  "occ_dist_2019_vision0_construction_production_transport": {
+   "pct": 22.3,
+   "moe": 0.1,
+   "records": 1340436
+  },
+  "occ_wfh_2019_vision0_construction_production_transport": {
+   "pct": 2.6,
+   "moe": 0.1,
+   "records": 282829
+  },
+  "occ_dist_2024_vision1_management_professional": {
+   "pct": 34.0,
+   "moe": 0.7,
+   "records": 20001
+  },
+  "occ_wfh_2024_vision1_management_professional": {
+   "pct": 16.3,
+   "moe": 0.9,
+   "records": 7152
+  },
+  "occ_dist_2024_vision1_office_admin": {
+   "pct": 11.6,
+   "moe": 0.4,
+   "records": 20001
+  },
+  "occ_wfh_2024_vision1_office_admin": {
+   "pct": 14.4,
+   "moe": 1.5,
+   "records": 2371
+  },
+  "occ_dist_2024_vision1_sales": {
+   "pct": 9.4,
+   "moe": 0.4,
+   "records": 20001
+  },
+  "occ_wfh_2024_vision1_sales": {
+   "pct": 9.9,
+   "moe": 1.3,
+   "records": 1868
+  },
+  "occ_dist_2024_vision1_service": {
+   "pct": 21.4,
+   "moe": 0.6,
+   "records": 20001
+  },
+  "occ_wfh_2024_vision1_service": {
+   "pct": 7.1,
+   "moe": 0.8,
+   "records": 4084
+  },
+  "occ_dist_2024_vision1_construction_production_transport": {
+   "pct": 23.7,
+   "moe": 0.6,
+   "records": 20001
+  },
+  "occ_wfh_2024_vision1_construction_production_transport": {
+   "pct": 4.2,
+   "moe": 0.6,
+   "records": 4526
+  },
+  "occ_dist_2024_vision0_management_professional": {
+   "pct": 44.4,
+   "moe": 0.1,
+   "records": 1383382
+  },
+  "occ_wfh_2024_vision0_management_professional": {
+   "pct": 19.4,
+   "moe": 0.1,
+   "records": 640966
+  },
+  "occ_dist_2024_vision0_office_admin": {
+   "pct": 10.1,
+   "moe": 0.1,
+   "records": 1383382
+  },
+  "occ_wfh_2024_vision0_office_admin": {
+   "pct": 15.7,
+   "moe": 0.2,
+   "records": 142965
+  },
+  "occ_dist_2024_vision0_sales": {
+   "pct": 8.5,
+   "moe": 0.1,
+   "records": 1383382
+  },
+  "occ_wfh_2024_vision0_sales": {
+   "pct": 14.0,
+   "moe": 0.2,
+   "records": 114759
+  },
+  "occ_dist_2024_vision0_service": {
+   "pct": 16.0,
+   "moe": 0.1,
+   "records": 1383382
+  },
+  "occ_wfh_2024_vision0_service": {
+   "pct": 6.3,
+   "moe": 0.1,
+   "records": 207260
+  },
+  "occ_dist_2024_vision0_construction_production_transport": {
+   "pct": 21.0,
+   "moe": 0.1,
+   "records": 1383382
+  },
+  "occ_wfh_2024_vision0_construction_production_transport": {
+   "pct": 4.4,
+   "moe": 0.1,
+   "records": 277432
+  },
+  "wfh_vision_with_others_occupation_mix": 11.5,
+  "indiana_emp_first_year_vision1": {
+   "pct": 46.7,
+   "moe": 3.4,
+   "records": 809
+  },
+  "indiana_wfh_first_year_vision1": {
+   "pct": 3.9,
+   "moe": 1.7,
+   "records": 353
+  },
+  "indiana_emp_first_year_vision0": {
+   "pct": 75.6,
+   "moe": 0.5,
+   "records": 38209
+  },
+  "indiana_wfh_first_year_vision0": {
+   "pct": 4.1,
+   "moe": 0.3,
+   "records": 28282
+  },
+  "indiana_emp_pooled_2022_on_vision1": {
+   "pct": 51.4,
+   "moe": 2.1,
+   "records": 2741
+  },
+  "indiana_wfh_pooled_2022_on_vision1": {
+   "pct": 8.4,
+   "moe": 1.6,
+   "records": 1332
+  },
+  "indiana_emp_pooled_2022_on_vision0": {
+   "pct": 77.3,
+   "moe": 0.3,
+   "records": 116204
+  },
+  "indiana_wfh_pooled_2022_on_vision0": {
+   "pct": 10.2,
+   "moe": 0.2,
+   "records": 86989
+  },
+  "indiana_vision_population_last": 105333,
+  "age_share_2019_18-34": {
+   "pct": 24.3,
+   "moe": 0.5,
+   "records": 35472
+  },
+  "age_share_2019_35-49": {
+   "pct": 25.9,
+   "moe": 0.5,
+   "records": 35472
+  },
+  "age_share_2019_50-64": {
+   "pct": 49.8,
+   "moe": 0.6,
+   "records": 35472
+  },
+  "vision_only_share_2019": {
+   "pct": 44.2,
+   "moe": 0.6,
+   "records": 35472
+  },
+  "emp_2019_vision_otherdis0": {
+   "pct": 68.0,
+   "moe": 0.8,
+   "records": 15954
+  },
+  "pop_2019_vision_otherdis0": 1674233,
+  "emp_2019_vision_otherdis1": {
+   "pct": 28.7,
+   "moe": 0.7,
+   "records": 19518
+  },
+  "pop_2019_vision_otherdis1": 2111030,
+  "emp_2019_vision_age_18-34": {
+   "pct": 55.4,
+   "moe": 1.3,
+   "records": 7809
+  },
+  "emp_2019_vision_age_35-49": {
+   "pct": 52.8,
+   "moe": 1.2,
+   "records": 8529
+  },
+  "emp_2019_vision_age_50-64": {
+   "pct": 38.0,
+   "moe": 0.8,
+   "records": 19134
+  },
+  "age_share_2024_18-34": {
+   "pct": 26.6,
+   "moe": 0.5,
+   "records": 40412
+  },
+  "age_share_2024_35-49": {
+   "pct": 27.6,
+   "moe": 0.5,
+   "records": 40412
+  },
+  "age_share_2024_50-64": {
+   "pct": 45.8,
+   "moe": 0.6,
+   "records": 40412
+  },
+  "vision_only_share_2024": {
+   "pct": 49.3,
+   "moe": 0.5,
+   "records": 40412
+  },
+  "emp_2024_vision_otherdis0": {
+   "pct": 72.1,
+   "moe": 0.8,
+   "records": 19332
+  },
+  "pop_2024_vision_otherdis0": 2167925,
+  "emp_2024_vision_otherdis1": {
+   "pct": 34.2,
+   "moe": 0.8,
+   "records": 21080
+  },
+  "pop_2024_vision_otherdis1": 2226977,
+  "emp_2024_vision_age_18-34": {
+   "pct": 60.7,
+   "moe": 1.1,
+   "records": 9754
+  },
+  "emp_2024_vision_age_35-49": {
+   "pct": 59.7,
+   "moe": 1.1,
+   "records": 10438
+  },
+  "emp_2024_vision_age_50-64": {
+   "pct": 44.3,
+   "moe": 0.8,
+   "records": 20220
+  },
+  "selfemp_2019_vision1_home": {
+   "pct": 34.8,
+   "moe": 4.0,
+   "records": 747
+  },
+  "fulltime_2019_vision1_home": {
+   "pct": 70.0,
+   "moe": 3.4,
+   "records": 747
+  },
+  "selfemp_2019_vision1_onsite": {
+   "pct": 8.3,
+   "moe": 0.5,
+   "records": 15107
+  },
+  "fulltime_2019_vision1_onsite": {
+   "pct": 76.5,
+   "moe": 0.8,
+   "records": 15107
+  },
+  "selfemp_2019_vision0_home": {
+   "pct": 33.2,
+   "moe": 0.4,
+   "records": 76599
+  },
+  "fulltime_2019_vision0_home": {
+   "pct": 75.7,
+   "moe": 0.3,
+   "records": 76599
+  },
+  "selfemp_2019_vision0_onsite": {
+   "pct": 7.3,
+   "moe": 0.0,
+   "records": 1263837
+  },
+  "fulltime_2019_vision0_onsite": {
+   "pct": 82.0,
+   "moe": 0.1,
+   "records": 1263837
+  },
+  "selfemp_2024_vision1_home": {
+   "pct": 17.3,
+   "moe": 1.8,
+   "records": 2271
+  },
+  "fulltime_2024_vision1_home": {
+   "pct": 80.2,
+   "moe": 1.8,
+   "records": 2271
+  },
+  "selfemp_2024_vision1_onsite": {
+   "pct": 9.0,
+   "moe": 0.4,
+   "records": 17730
+  },
+  "fulltime_2024_vision1_onsite": {
+   "pct": 77.2,
+   "moe": 0.7,
+   "records": 17730
+  },
+  "selfemp_2024_vision0_home": {
+   "pct": 15.9,
+   "moe": 0.2,
+   "records": 190410
+  },
+  "fulltime_2024_vision0_home": {
+   "pct": 84.8,
+   "moe": 0.2,
+   "records": 190410
+  },
+  "selfemp_2024_vision0_onsite": {
+   "pct": 8.2,
+   "moe": 0.0,
+   "records": 1192972
+  },
+  "fulltime_2024_vision0_onsite": {
+   "pct": 81.6,
+   "moe": 0.1,
+   "records": 1192972
+  },
+  "earn_2019": {
+   "year": 2019,
+   "note": "weighted medians, people at work, nominal dollars for that survey year",
+   "vision_home": {
+    "median_earnings": 35000.0,
+    "median_hours": 40.0,
+    "sample_records": 747
+   },
+   "vision_onsite": {
+    "median_earnings": 30000.0,
+    "median_hours": 40.0,
+    "sample_records": 15107
+   },
+   "no_vision_home": {
+    "median_earnings": 48000.0,
+    "median_hours": 40.0,
+    "sample_records": 76599
+   },
+   "no_vision_onsite": {
+    "median_earnings": 40000.0,
+    "median_hours": 40.0,
+    "sample_records": 1263837
+   }
+  },
+  "earn_2021": {
+   "year": 2021,
+   "note": "weighted medians, people at work, nominal dollars for that survey year",
+   "vision_home": {
+    "median_earnings": 50000.0,
+    "median_hours": 40.0,
+    "sample_records": 2443
+   },
+   "vision_onsite": {
+    "median_earnings": 32000.0,
+    "median_hours": 40.0,
+    "sample_records": 15112
+   },
+   "no_vision_home": {
+    "median_earnings": 65000.0,
+    "median_hours": 40.0,
+    "sample_records": 240869
+   },
+   "no_vision_onsite": {
+    "median_earnings": 40000.0,
+    "median_hours": 40.0,
+    "sample_records": 1042054
+   }
+  },
+  "earn_2022": {
+   "year": 2022,
+   "note": "weighted medians, people at work, nominal dollars for that survey year",
+   "vision_home": {
+    "median_earnings": 50000.0,
+    "median_hours": 40.0,
+    "sample_records": 2175
+   },
+   "vision_onsite": {
+    "median_earnings": 35000.0,
+    "median_hours": 40.0,
+    "sample_records": 16628
+   },
+   "no_vision_home": {
+    "median_earnings": 69000.0,
+    "median_hours": 40.0,
+    "sample_records": 215619
+   },
+   "no_vision_onsite": {
+    "median_earnings": 42900.0,
+    "median_hours": 40.0,
+    "sample_records": 1146386
+   }
+  },
+  "earn_2023": {
+   "year": 2023,
+   "note": "weighted medians, people at work, nominal dollars for that survey year",
+   "vision_home": {
+    "median_earnings": 52000.0,
+    "median_hours": 40.0,
+    "sample_records": 2178
+   },
+   "vision_onsite": {
+    "median_earnings": 36500.0,
+    "median_hours": 40.0,
+    "sample_records": 17072
+   },
+   "no_vision_home": {
+    "median_earnings": 70000.0,
+    "median_hours": 40.0,
+    "sample_records": 198022
+   },
+   "no_vision_onsite": {
+    "median_earnings": 46000.0,
+    "median_hours": 40.0,
+    "sample_records": 1180829
+   }
+  },
+  "earn_2024": {
+   "year": 2024,
+   "note": "weighted medians, people at work, nominal dollars for that survey year",
+   "vision_home": {
+    "median_earnings": 50000.0,
+    "median_hours": 40.0,
+    "sample_records": 2271
+   },
+   "vision_onsite": {
+    "median_earnings": 38000.0,
+    "median_hours": 40.0,
+    "sample_records": 17730
+   },
+   "no_vision_home": {
+    "median_earnings": 73800.0,
+    "median_hours": 40.0,
+    "sample_records": 190410
+   },
+   "no_vision_onsite": {
+    "median_earnings": 50000.0,
+    "median_hours": 40.0,
+    "sample_records": 1192972
+   }
+  }
+ }
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brian Clark: things I built that you can try</title>
+<meta name="description" content="Specific features Brian Clark designed and built as a totally blind screen reader user: the problem each one solves, what was built, and how to try it.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="site">
+  <div class="wrap">
+    <h1>Things I built that you can try</h1>
+    <p class="lede">A resume says where I have been. This page shows what I noticed, what I decided to do about it, and whether it works.</p>
+    <p class="muted">Brian Clark &middot; brian@faftb.com &middot; Updated November 6, 2026</p>
+    <nav class="toc pages" aria-label="Pages on this site">
+      <p class="navlabel">Pages on this site</p>
+      <ul>
+        <li><a href="index.html">Home: work history and how I work</a></li>
+        <li><a href="features.html" aria-current="page">Things I built that you can try</a> (this page)</li>
+        <li><a href="study.html">Study: blind employment and remote work</a></li>
+        <li><a href="resume.html">Printable resume</a></li>
+      </ul>
+    </nav>
+    <nav class="toc" aria-label="Sections of this page">
+      <p class="navlabel">Sections of this page</p>
+      <ul>
+        <li><a href="#read">How to read this page</a></li>
+        <li><a href="#web">On the web: open and try</a></li>
+        <li><a href="#addons">NVDA add-ons I use every day</a></li>
+        <li><a href="#snappy">Snappy Play: an audio player with nothing on the screen</a></li>
+        <li><a href="#tools">Tools built for the job</a></li>
+        <li><a href="#run">How the projects are run</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+
+<section id="read" aria-labelledby="read-h">
+<h2 id="read-h">How to read this page</h2>
+<p>Each entry has three parts: the problem a blind or low-vision person runs into, what I built to solve it, and how to try it. Most of the web entries take under a minute with a keyboard. Turn your speakers on.</p>
+<p>My part in each of these was the part a certification is supposed to vouch for: knowing the problem exists, knowing what a screen reader user needs instead, specifying it, and testing it by ear until it was right. AI tools wrote the code to my specification. I cannot see a screen, so nothing here was approved because it looked right.</p>
+<p>None of this is what I am asking anyone to let me teach. It is evidence of how well I understand the thing I do teach, which is using a screen reader.</p>
+</section>
+
+<section id="web" aria-labelledby="web-h">
+<h2 id="web-h">On the web: open and try</h2>
+
+<h3>A talking-book player for text that has no audio file</h3>
+<p><strong>The problem.</strong> A talking-book player such as BARD Mobile lets you jump back ten or thirty seconds. A web page read aloud by a synthetic voice has no clock, only words, so there is nothing to jump by.</p>
+<p><strong>What I built.</strong> Accessible Bible displays plain text and reads it aloud with a synthetic voice. Ordinarily you move through it a verse at a time. I added time-based navigation on top of that: an engine that converts time into words from the reading speed, so you can jump forward or back by an amount of time instead of by a verse. You choose the size of the jump, from seconds to minutes. The same clock lets you set continuous reading to run for a set length of time and then stop, the way a sleep timer does on a talking-book player. All of this works in the Bible and in any book in its library, even though no recording exists. While it reads, it switches off the page's own screen reader announcements and restores them the moment you stop, so you never hear two voices at once. Getting that right meant learning exactly how screen readers treat live regions, the parts of a page that announce themselves.</p>
+<p><strong>Try it.</strong> Open <a href="https://www.accessible-bible.org">accessible-bible.org</a> and activate the start button. Hold Control and Shift and press the right or left arrow to jump forward or back by time. Hold Control and Shift and press the up or down arrow to change the size of the jump.</p>
+
+<h3>Keyboard Explorer on F12</h3>
+<p><strong>The problem.</strong> A sighted user learns a new program by looking at its menus and legends. A blind user cannot glance at anything.</p>
+<p><strong>What I built.</strong> Press F12 and every key you press describes what it does without doing it. It is the same idea as the keyboard help built into JAWS and NVDA, applied to a single application. I now put it in nearly every web application I build.</p>
+<p><strong>Try it.</strong> At <a href="https://www.accessible-bible.org">accessible-bible.org</a>, press F12, then press any keys. F12 or Escape turns it off.</p>
+
+<h3>A display for the sighted person in the room</h3>
+<p><strong>The problem.</strong> This is the usual accessibility problem in reverse. I build for the ear first, and many of my projects begin with nothing on the screen at all. Accessible Bible worked well with a screen reader from the start, but a sighted spouse, teacher, or helper sitting alongside had nothing to look at and could not tell what the menus were doing.</p>
+<p><strong>What I built.</strong> Visible menus and a panel that shows each keystroke and the current state, added afterward for sighted people. It is hidden from the screen reader, so it adds no clutter for the blind user. I had to make my non-visual site accessible to the sighted, and I now add visuals to most of what I build so that sighted people can use and enjoy it too.</p>
+<p><strong>Try it.</strong> If you can see the screen, watch it while you use the keyboard at <a href="https://www.accessible-bible.org">accessible-bible.org</a>.</p>
+
+<h3>A lyric display built for low vision</h3>
+<p><strong>The problem.</strong> Lyric and caption displays are usually small, fixed-size, low-contrast text laid over artwork. That is the worst case for a low-vision reader.</p>
+<p><strong>What I built.</strong> I made this for friends with low vision who asked to see the lyrics while they listened. On A Series of Joyful Noises, a lyric window that shows the current lines in time with the song as real text, not an image. It follows the visitor's own settings: five text sizes up to double, six color schemes including yellow on black and low-glare cream, a wider-spacing option, and automatic support for Windows High Contrast mode. When the text is enlarged so far that the music player would cover nearly half the screen, the player stops floating and moves into the page so it never hides the words. The lyrics are deliberately not announced by a screen reader, because speech on top of music helps no one, least of all on a phone where both come out of the same speaker. The same reader-controlled display settings are on Not By Sight.</p>
+<p><strong>Try it.</strong> Open <a href="https://www.asojn.com">asojn.com</a>, play a song, and change the text size and color scheme in the display settings.</p>
+
+<h3>A world made only of sound</h3>
+<p><strong>The problem.</strong> Almost no games can be played without sight, and the few that can are usually simple.</p>
+<p><strong>What I built.</strong> The Silence is a space game with no graphics at all. Every ship, rock, station, and beacon is placed in three-dimensional space around your head using <abbr title="head-related transfer function">HRTF</abbr>, the browser's method for making a sound in headphones seem to come from a specific direction and distance. You fly, fight, mine, and dock by ear. It is under development and about half finished, with playable missions and a sound lab for tuning every sound by ear.</p>
+<p><strong>Try it.</strong> Put on headphones, open <a href="https://1eyebiney.github.io/headless-space-sim/">The Silence</a>, press Enter to begin, and choose a mission with the up and down arrows.</p>
+
+<h3>A game with no form fields</h3>
+<p><strong>The problem.</strong> A screen reader switches between a reading mode and a typing mode whenever it meets a form field. Games built from ordinary web controls fight that constantly, and the player loses track of where they are.</p>
+<p><strong>What I built.</strong> In YAY! Accessible Dice, one of my early projects, the whole game lives in a single place on the page with no input fields. The game tracks your position, not the browser, and every action produces speech or a sound. Silence is treated as a bug.</p>
+<p><strong>Try it.</strong> Open <a href="https://1eyebiney.github.io/yay/">YAY! Accessible Dice</a>. It is played entirely from the keyboard: Space rolls and Enter scores.</p>
+
+<h3>Typing instruction built around sound</h3>
+<p><strong>The problem.</strong> Typing tutors show you the next letter. A blind beginner has to hear it, and the feedback has to come fast enough to build rhythm.</p>
+<p><strong>What I built.</strong> Keyboard Commander, an audio-first typing game whose feedback arrives in under 20 thousandths of a second, produced by the browser's own synthesizer instead of played from files. Nine stages run from the home row through numbers, symbols, and the numeric keypad to the navigation and editing keys a screen reader user lives on.</p>
+<p><strong>Try it.</strong> Open <a href="https://keyboard-commander.com">keyboard-commander.com</a> with a keyboard and speakers.</p>
+
+<h3>A site that refuses to publish a misquotation</h3>
+<p><strong>The problem.</strong> A blind author cannot proofread a quotation against a printed page.</p>
+<p><strong>What I built.</strong> On Not By Sight, every Bible verse and every passage quoted from an older reference work is compared, word for word, with the original source file each time the site is built. If one word has drifted, the site will not publish. Anyone can download the project and run the same checks.</p>
+<p><strong>Try it.</strong> Open <a href="https://blindnessinthebible.com">blindnessinthebible.com</a> and read any quoted passage against your own copy.</p>
+
+<h3>Also on these sites</h3>
+<ul>
+<li><strong>A manual you listen to.</strong> Accessible Bible teaches itself through chaptered audio lessons inside the application, played with a full set of media-player keys, instead of a written manual.</li>
+<li><strong>Every episode in three forms.</strong> Each story on Not By Sight is available as an audio file, as a captioned video for deaf and hard-of-hearing visitors, and as text on the page, with the pictures described in words. I produce them with a pipeline of AI tools: one renders the voices and sounds from my script, another helps generate the music, and another creates the images and assembles the video once I have mixed the audio.</li>
+<li><strong>A catalog anyone can check.</strong> Every passage about blindness is listed with how it was found, how it was classified, and how confident that classification is, so a reader can disagree with the evidence in front of them.</li>
+</ul>
+</section>
+
+<section id="addons" aria-labelledby="addons-h">
+<h2 id="addons-h">NVDA add-ons I use every day</h2>
+<p>These extend the NVDA screen reader itself. They are not on a public site, and I have no way to distribute them widely yet. I will give a copy to anyone who asks, and I am glad to demonstrate them.</p>
+
+<h3>Favorites Hub: three letters and Enter</h3>
+<p><strong>The problem.</strong> A sighted worker clicks a shortcut on the desktop. A screen reader user walks through menus and folder trees to reach the same place, dozens of times a day.</p>
+<p><strong>What I built.</strong> One hub for the folders, links, text snippets, commands, and keystroke macros I use all day, opened with Windows plus Backspace. A quick-pick box finds anything from a few letters. Adding a favorite captures where I already am: the folder open in File Explorer, the path in a Save dialog, or the address in a browser, so a path is never retyped. Snippets can insert today's date or the clipboard as they paste.</p>
+
+<h3>Speech Harvester: pulling data out of what the screen reader said</h3>
+<p><strong>The problem.</strong> A sighted worker copies a phone number from one window and pastes it into another. A blind worker often hears the number but cannot easily select it.</p>
+<p><strong>What I built.</strong> An add-on that remembers what NVDA has spoken, in memory only and never on disk. One command pulls every phone number or email address out of the last hundred things spoken. Another builds a running list of items as I move through a screen, then pastes the whole list as plain lines, a comma-separated row, or other formats. By design it refuses to look for card numbers or government identification numbers.</p>
+
+<h3>File Collector: gathering files by ear</h3>
+<p><strong>The problem.</strong> Giving an AI assistant the right dozen files from a large project means finding each one in a different folder, which is slow by speech.</p>
+<p><strong>What I built.</strong> Paste a list of file names and it finds and copies them into one folder. While browsing, a short beep sounds when I land on a file I was looking for, and one key collects it. It renames files that would collide, zips the set with a list of where each came from, and warns before the bundle gets too large to upload.</p>
+
+<p>Also under development: Pivot, which opens a whole working session of programs, folders, and web pages with one command and puts focus where it belongs.</p>
+</section>
+
+<section id="snappy" aria-labelledby="snappy-h">
+<h2 id="snappy-h">Snappy Play: an audio player with nothing on the screen</h2>
+<p>This is a program for Windows, not an NVDA add-on. I built it for my own use and it is not available to download, but I am glad to demonstrate it.</p>
+<p><strong>The problem.</strong> I listen to audio files all day: class recordings, drafts of my own episodes, anything I need to check quickly. VLC, the player most people use, felt laggy and slow with NVDA, and it often failed to take focus when I opened a file, so my keys went to the wrong window. I wanted a quick audio previewer that fits exactly how I work.</p>
+<p><strong>What I built.</strong> Snappy Play is a keyboard-only audio player with no visual interface at all. Every function is a key press, and all feedback is spoken through NVDA. It plays any audio format, and the sound from video files. Only one copy ever runs: opening another file hands it to the running copy, which takes focus every time. These are the parts I use most:</p>
+<ul>
+<li><strong>Jumps of different lengths on the arrow keys.</strong> Left and Right move 5 seconds. Add Shift for 1 second, Control for 30 seconds, or Alt for 5 minutes. Control, Shift, and an arrow make a jump whose length I can change while listening, from 1 second to 30 minutes. Each jump speaks its length, so I always know how far I moved.</li>
+<li><strong>Chapters.</strong> I mark sections when I export an MP3 from Reaper, the audio editor I use. Snappy Play reads those markers, moves between them, and speaks each chapter's name.</li>
+<li><strong>Paste from File Explorer.</strong> Copy files or a whole folder in Explorer, press Control+V in Snappy Play, and they play in order, with track 2 before track 10.</li>
+<li><strong>Bookmarks and resume.</strong> One key marks a spot, and the marks are kept for that file. A file of ten minutes or more reopens where I left off.</li>
+<li><strong>Keys that work from anywhere.</strong> I can pause or jump back while I am typing in another program, without leaving it.</li>
+</ul>
+<p>It also speaks the elapsed time, the time remaining, and the file name on request, changes speed without changing pitch, and repeats a section between two points I set.</p>
+<p><strong>How fast it is.</strong> Speed was the point, so we measured it. After I open a file, the program is up and the sound has started in 119 to 211 thousandths of a second. Handing a new file to the copy already running takes 22 thousandths of a second. It closes 11 thousandths of a second after I press Escape.</p>
+<p><strong>How it was built.</strong> In Python with Claude Code, in a couple of hours on the morning of November 6, 2026. We wrote the plan first, then built it in seven phases, and I tested each phase with NVDA before the next one began. It uses mpv, a free playback library, for the sound, and a bare Windows window with no interface toolkit, which is much of why it starts so quickly. The design is mine: which keys, what is spoken and when, and what was left out.</p>
+</section>
+
+<section id="tools" aria-labelledby="tools-h">
+<h2 id="tools-h">Tools built for the job</h2>
+
+<h3>An AI student in every class, on an ordinary laptop</h3>
+<p><strong>The problem.</strong> Taking notes with a screen reader is a skill of its own, and a student who is new to screen readers cannot be expected to use it while still learning everything else in the same class.</p>
+<p><strong>What I built.</strong> For First Aid for the Blind, each class recording is transcribed on my own computer. A small AI model, also running on that computer, then reads the transcript against my lesson plan and writes about ten notes with headlines, the way an attentive student would. The email goes out overnight. No class recording is sent to an outside AI service, there is no monthly fee, and it runs on a laptop processor with no graphics card. More detail is on the <a href="index.html#faftb">main page</a>.</p>
+
+<h3>Reading Scripture written in symbols, by speech</h3>
+<p><strong>The problem.</strong> Symbolic Universal Notation is a picture-symbol Bible for Deaf and DeafBlind readers, published by Wycliffe Associates. It is made to be seen, and a screen reader could make nothing of it.</p>
+<p><strong>What I built.</strong> This was an experiment of my own, not work done for its publisher. I wanted to know whether Claude could help me build a dictionary that would let NVDA speak the symbols. Working only from the published New Testament, we found that its 1,306 symbols were ordinary characters in a custom font, matched all 7,955 verses against the English they were made from, and produced a pronunciation file so that NVDA reads a page of the symbols aloud as words. About nine words in ten are covered.</p>
+
+<h3>The laptop quote pipeline</h3>
+<p><strong>The problem.</strong> Pricing a refurbished laptop for a client means searching several shopping sites that are slow and cluttered with a screen reader, then writing up the result for Vocational Rehabilitation.</p>
+<p><strong>What I built.</strong> One command searches four sources of refurbished business laptops, keeps only those that meet the training program's specification, compares them with the Computers for the Blind price, and writes the quote as a Word document. All of its output is plain text with no progress bars or color codes, so it reads cleanly by speech.</p>
+
+<h3>A client-records app for a support group</h3>
+<p><strong>The problem.</strong> A volunteer sight-loss support group needs to keep track of the people it serves, and commercial client-management products cost three to five thousand dollars a year.</p>
+<p><strong>What I built.</strong> An intake and survey app that runs on the leaders' own iPhones with VoiceOver, with each person's records kept in that phone's storage. It is in its early stages, and we are building it as we test it. The aim is a client-management system fitted to what the group actually does, in place of licensing SILSuite or Salesforce.</p>
+</section>
+
+<section id="run" aria-labelledby="run-h">
+<h2 id="run-h">How the projects are run</h2>
+<p>Every project carries a written rulebook that the AI must read before it touches anything. Accessible Bible, YAY, Keyboard Commander, Accessible Football, and The Silence each have a design document and a list of rules that may not be broken, such as "no form inputs" and "every action makes a sound." Keyboard Commander's opens with the eight mistakes AI assistants made most often on that project and how to check for each one. The rules come from me. They are the same things I teach students to expect from software that works well with a screen reader.</p>
+</section>
+
+</main>
+
+<footer class="site"><div class="wrap"><p>Brian Clark, First Aid for the Blind, Indianapolis, Indiana. brian@faftb.com. Live demonstrations of anything on this page on request. <a href="index.html">Back to the main page</a>.</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+{
+  "year": 2024,
+  "source_file": "pus_2024.zip",
+  "universe": "ages 18-64, civilian, noninstitutional",
+  "vision": {
+    "population": {
+      "estimate": 4394902,
+      "moe90": 59551,
+      "sample_records": 40412
+    },
+    "employed": {
+      "estimate": 2325267,
+      "moe90": 44899,
+      "sample_records": 20582
+    },
+    "at_work": {
+      "estimate": 2257673,
+      "moe90": 43447,
+      "sample_records": 20001
+    },
+    "worked_from_home": {
+      "estimate": 240089,
+      "moe90": 10341,
+      "sample_records": 2271
+    },
+    "employment_rate_pct": {
+      "estimate": 52.91,
+      "moe90": 0.58
+    },
+    "unemployment_rate_pct": {
+      "estimate": 8.45,
+      "moe90": 0.4
+    },
+    "not_in_labor_force_pct": {
+      "estimate": 42.21,
+      "moe90": 0.53
+    },
+    "work_from_home_share_of_workers_pct": {
+      "estimate": 10.63,
+      "moe90": 0.43
+    },
+    "work_from_home_share_of_population_pct": {
+      "estimate": 5.46,
+      "moe90": 0.22
+    }
+  },
+  "no_vision": {
+    "population": {
+      "estimate": 198214418,
+      "moe90": 74729,
+      "sample_records": 1877340
+    },
+    "employed": {
+      "estimate": 151472953,
+      "moe90": 175985,
+      "sample_records": 1409011
+    },
+    "at_work": {
+      "estimate": 148676998,
+      "moe90": 183242,
+      "sample_records": 1383382
+    },
+    "worked_from_home": {
+      "estimate": 19814064,
+      "moe90": 97380,
+      "sample_records": 190410
+    },
+    "employment_rate_pct": {
+      "estimate": 76.42,
+      "moe90": 0.08
+    },
+    "unemployment_rate_pct": {
+      "estimate": 4.51,
+      "moe90": 0.04
+    },
+    "not_in_labor_force_pct": {
+      "estimate": 19.97,
+      "moe90": 0.07
+    },
+    "work_from_home_share_of_workers_pct": {
+      "estimate": 13.33,
+      "moe90": 0.06
+    },
+    "work_from_home_share_of_population_pct": {
+      "estimate": 10.0,
+      "moe90": 0.05
+    }
+  }
+}
