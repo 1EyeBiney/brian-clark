@@ -38,5 +38,23 @@
    "published": 610618,
    "mine": 610618
   }
+ },
+ "continuity_and_earnings_papers": {
+  "records": {
+   "published": 1521934,
+   "mine": 1521934
+  },
+  "people": {
+   "published": 160452588,
+   "mine": 160452588
+  },
+  "records_with_visual_impairment": {
+   "published": 19460,
+   "mine": 19460
+  },
+  "people_with_visual_impairment": {
+   "published": 2031140,
+   "mine": 2031140
+  }
  }
 }

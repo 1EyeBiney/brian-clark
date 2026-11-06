@@ -14,6 +14,10 @@ Published figures being reproduced:
   to 64, associate degree or higher, worked in the past 12 months: 695,899
   records representing 69,925,153 people, of whom 6,038 records representing
   610,618 people had a visual impairment.
+  McDonnall, Cmar and McKnight (2022), Continuity of employment, and the same
+  authors' Earnings paper: civilian, ages 18 to 65, worked in the past 12
+  months: 1,521,934 records representing 160,452,588 people, of whom 19,460
+  records representing 2,031,140 people had a visual impairment.
 
 The papers do not list every rule used to draw their samples. The two rules
 below that are not stated in the papers were found by trial: the benefits
@@ -31,7 +35,7 @@ import pandas as pd
 
 COLS = ['AGEP', 'DEYE', 'ESR', 'SCHL', 'WKL', 'SSP', 'COW', 'PWGTP']
 t = {k: 0.0 for k in ('ssdi_records', 'ssdi_pop', 'ssdi_recipients', 'rec_worked', 'nonrec', 'nonrec_worked',
-                      'ue_records', 'ue_pop', 'ue_vi_records', 'ue_vi_pop')}
+                      'ue_records', 'ue_pop', 'ue_vi_records', 'ue_vi_pop', 'wk_records', 'wk_pop', 'wk_vi_records', 'wk_vi_pop')}
 with zipfile.ZipFile(sys.argv[1]) as z:
     for name in [n for n in z.namelist() if n.lower().endswith('.csv')]:
         with z.open(name) as f:
@@ -46,6 +50,11 @@ with zipfile.ZipFile(sys.argv[1]) as z:
                 t['nonrec'] += a.loc[~rec, 'PWGTP'].sum()
                 t['nonrec_worked'] += a.loc[~rec & worked, 'PWGTP'].sum()
                 u = c[(c['AGEP'] >= 21) & (c['AGEP'] <= 64) & (c['SCHL'] >= 20) & (c['WKL'] == 1) & (c['COW'] != 8)]
+                w = c[(c['AGEP'] >= 18) & (c['AGEP'] <= 65) & ~c['ESR'].isin([4, 5]) & (c['WKL'] == 1)]
+                t['wk_records'] += len(w)
+                t['wk_pop'] += w['PWGTP'].sum()
+                t['wk_vi_records'] += (w['DEYE'] == 1).sum()
+                t['wk_vi_pop'] += w.loc[w['DEYE'] == 1, 'PWGTP'].sum()
                 t['ue_records'] += len(u)
                 t['ue_pop'] += u['PWGTP'].sum()
                 t['ue_vi_records'] += (u['DEYE'] == 1).sum()
@@ -61,7 +70,12 @@ out = {
         'records': {'published': 695899, 'mine': int(t['ue_records'])},
         'people': {'published': 69925153, 'mine': int(t['ue_pop'])},
         'records_with_visual_impairment': {'published': 6038, 'mine': int(t['ue_vi_records'])},
-        'people_with_visual_impairment': {'published': 610618, 'mine': int(t['ue_vi_pop'])}}}
+        'people_with_visual_impairment': {'published': 610618, 'mine': int(t['ue_vi_pop'])}},
+    'continuity_and_earnings_papers': {
+        'records': {'published': 1521934, 'mine': int(t['wk_records'])},
+        'people': {'published': 160452588, 'mine': int(t['wk_pop'])},
+        'records_with_visual_impairment': {'published': 19460, 'mine': int(t['wk_vi_records'])},
+        'people_with_visual_impairment': {'published': 2031140, 'mine': int(t['wk_vi_pop'])}}}
 here = os.path.dirname(os.path.abspath(__file__))
 json.dump(out, open(os.path.join(here, 'results', 'published_check.json'), 'w', encoding='utf-8'), indent=1)
 for paper, d in out.items():
