@@ -842,6 +842,49 @@
     "median_hours": 40.0,
     "sample_records": 1192972
    }
+  },
+  "emp_2024_vision1_college1_age_18-34": {
+   "pct": 81.6,
+   "moe": 1.9,
+   "records": 1606
+  },
+  "emp_2024_vision0_college1_age_18-34": {
+   "pct": 87.6,
+   "moe": 0.2,
+   "records": 202031
+  },
+  "emp_2024_vision1_college1_age_35-49": {
+   "pct": 79.9,
+   "moe": 1.8,
+   "records": 2330
+  },
+  "emp_2024_vision0_college1_age_35-49": {
+   "pct": 89.3,
+   "moe": 0.1,
+   "records": 257498
+  },
+  "emp_2024_vision1_college1_age_50-64": {
+   "pct": 63.2,
+   "moe": 1.9,
+   "records": 3809
+  },
+  "emp_2024_vision0_college1_age_50-64": {
+   "pct": 79.7,
+   "moe": 0.2,
+   "records": 232687
+  },
+  "pop_2024_vision1_college1": 825658,
+  "not_employed_2024_vision1_college1": 224300,
+  "nilf_2024_vision1_college1": 193818,
+  "emp_2024_vision1_college1_otherdis0": {
+   "pct": 82.7,
+   "moe": 1.3,
+   "records": 4921
+  },
+  "emp_2024_vision1_college1_otherdis1": {
+   "pct": 55.0,
+   "moe": 2.0,
+   "records": 2824
   }
  }
 }

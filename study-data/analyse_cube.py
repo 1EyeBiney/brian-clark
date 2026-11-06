@@ -164,6 +164,24 @@ for f in sorted(glob.glob(os.path.join(here, 'results', 'earn_*_pus_*.json'))):
     res[f"earn_{e['year']}"] = e
     print(' ', e['year'], {k: (v['median_earnings'], v['median_hours']) for k, v in e.items() if isinstance(v, dict)})
 
+print('=== J. People who already hold a bachelor\'s degree (last year)')
+y = years[-1]
+for a in ('18-34', '35-49', '50-64'):
+    for vis in (1, 0):
+        d = sel(cube, year=y, vision=vis, college=1, age=a)
+        res[f'emp_{y}_vision{vis}_college1_age_{a}'] = ratio(sel(d, status='employed'), d)
+        show(f'{y} degree holders, vision{vis}, age {a}, employed', res[f'emp_{y}_vision{vis}_college1_age_{a}'])
+d = sel(cube, year=y, vision=1, college=1)
+res[f'pop_{y}_vision1_college1'] = int(tot(d)[0])
+res[f'not_employed_{y}_vision1_college1'] = int(tot(sel(d, status=['unemployed', 'nilf']))[0])
+res[f'nilf_{y}_vision1_college1'] = int(tot(sel(d, status='nilf'))[0])
+print('  degree holders with vision difficulty:', res[f'pop_{y}_vision1_college1'], 'not employed:',
+      res[f'not_employed_{y}_vision1_college1'], 'of them not looking:', res[f'nilf_{y}_vision1_college1'])
+for od in (0, 1):
+    g = sel(d, other_dis=od)
+    res[f'emp_{y}_vision1_college1_otherdis{od}'] = ratio(sel(g, status='employed'), g)
+    show(f'{y} degree holders with vision difficulty, other difficulty={od}, employed', res[f'emp_{y}_vision1_college1_otherdis{od}'])
+
 out['results'] = res
 with open(os.path.join(here, 'results', 'followup.json'), 'w', encoding='utf-8') as f:
     json.dump(out, f, indent=1)
