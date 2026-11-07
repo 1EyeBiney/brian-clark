@@ -1,0 +1,801 @@
+{
+ "years": [
+  2019,
+  2021,
+  2022,
+  2023,
+  2024
+ ],
+ "groups": {
+  "none": {
+   "all": {
+    "pct": 78.1,
+    "moe": 0.3,
+    "se": 0.183,
+    "pct_exact": 78.06995591719628,
+    "moe_exact": 0.30026791887421866,
+    "records": 82963,
+    "people_per_year": 159607826
+   },
+   "records_all": 86112,
+   "people_per_year_all": 165908615,
+   "college1": {
+    "pct": 86.9,
+    "moe": 0.4,
+    "se": 0.213,
+    "pct_exact": 86.9346336642631,
+    "moe_exact": 0.35066102337387095,
+    "records": 34561,
+    "people_per_year": 56179608
+   },
+   "college0": {
+    "pct": 73.2,
+    "moe": 0.4,
+    "se": 0.248,
+    "pct_exact": 73.22050408988245,
+    "moe_exact": 0.4076595947656431,
+    "records": 48060,
+    "people_per_year": 102553266
+   },
+   "other1": {
+    "pct": 41.6,
+    "moe": 1.7,
+    "se": 1.007,
+    "pct_exact": 41.57818279289914,
+    "moe_exact": 1.6560519368480775,
+    "records": 3459,
+    "people_per_year": 6326620
+   },
+   "other0": {
+    "pct": 79.6,
+    "moe": 0.3,
+    "se": 0.181,
+    "pct_exact": 79.57296940184824,
+    "moe_exact": 0.29772818692801856,
+    "records": 79480,
+    "people_per_year": 153226761
+   },
+   "age_18-34": {
+    "pct": 76.9,
+    "moe": 0.5,
+    "se": 0.322,
+    "pct_exact": 76.86421313538455,
+    "moe_exact": 0.5302604596614136,
+    "records": 26972,
+    "people_per_year": 62491980
+   },
+   "age_35-49": {
+    "pct": 84.3,
+    "moe": 0.4,
+    "se": 0.262,
+    "pct_exact": 84.31574120165047,
+    "moe_exact": 0.43144954905534466,
+    "records": 27795,
+    "people_per_year": 50718861
+   },
+   "age_50-64": {
+    "pct": 72.9,
+    "moe": 0.5,
+    "se": 0.317,
+    "pct_exact": 72.86638808236108,
+    "moe_exact": 0.5221010597067655,
+    "records": 28196,
+    "people_per_year": 46396986
+   },
+   "year_2019": {
+    "pct": 78.6,
+    "moe": 0.7,
+    "se": 0.4,
+    "pct_exact": 78.59219390449168,
+    "moe_exact": 0.6586764975188261,
+    "records": 18733,
+    "people_per_year": 32780745
+   },
+   "year_2021": {
+    "pct": 76.5,
+    "moe": 0.7,
+    "se": 0.411,
+    "pct_exact": 76.45380438428757,
+    "moe_exact": 0.6756303770519818,
+    "records": 16599,
+    "people_per_year": 32010990
+   },
+   "year_2022": {
+    "pct": 78.4,
+    "moe": 0.7,
+    "se": 0.401,
+    "pct_exact": 78.40853147225774,
+    "moe_exact": 0.6592598434965529,
+    "records": 14897,
+    "people_per_year": 31395658
+   },
+   "year_2023": {
+    "pct": 78.3,
+    "moe": 0.7,
+    "se": 0.421,
+    "pct_exact": 78.32536474061092,
+    "moe_exact": 0.6921832057963576,
+    "records": 15516,
+    "people_per_year": 31368960
+   },
+   "year_2024": {
+    "pct": 78.6,
+    "moe": 0.7,
+    "se": 0.405,
+    "pct_exact": 78.5683276546655,
+    "moe_exact": 0.6666994384702544,
+    "records": 17218,
+    "people_per_year": 32051473
+   }
+  },
+  "some": {
+   "all": {
+    "pct": 69.0,
+    "moe": 0.7,
+    "se": 0.448,
+    "pct_exact": 69.00016503035874,
+    "moe_exact": 0.7370685115404524,
+    "records": 15428,
+    "people_per_year": 29099410
+   },
+   "records_all": 15958,
+   "people_per_year_all": 30149691,
+   "college1": {
+    "pct": 82.5,
+    "moe": 1.0,
+    "se": 0.612,
+    "pct_exact": 82.52495091414671,
+    "moe_exact": 1.007033049446798,
+    "records": 4696,
+    "people_per_year": 7470197
+   },
+   "college0": {
+    "pct": 64.2,
+    "moe": 0.9,
+    "se": 0.55,
+    "pct_exact": 64.24537431515367,
+    "moe_exact": 0.9048698721102364,
+    "records": 10659,
+    "people_per_year": 21464157
+   },
+   "other1": {
+    "pct": 35.6,
+    "moe": 2.1,
+    "se": 1.265,
+    "pct_exact": 35.62311869559656,
+    "moe_exact": 2.0804167086893526,
+    "records": 2202,
+    "people_per_year": 3867514
+   },
+   "other0": {
+    "pct": 74.1,
+    "moe": 0.8,
+    "se": 0.462,
+    "pct_exact": 74.13002938501259,
+    "moe_exact": 0.7592152965698558,
+    "records": 13216,
+    "people_per_year": 25215548
+   },
+   "age_18-34": {
+    "pct": 71.4,
+    "moe": 1.5,
+    "se": 0.935,
+    "pct_exact": 71.38999256579648,
+    "moe_exact": 1.537547674969766,
+    "records": 3462,
+    "people_per_year": 8467406
+   },
+   "age_35-49": {
+    "pct": 76.5,
+    "moe": 1.2,
+    "se": 0.751,
+    "pct_exact": 76.53760612475865,
+    "moe_exact": 1.2355691746763422,
+    "records": 4494,
+    "people_per_year": 8397067
+   },
+   "age_50-64": {
+    "pct": 62.2,
+    "moe": 1.1,
+    "se": 0.675,
+    "pct_exact": 62.17315502374107,
+    "moe_exact": 1.1111938156671455,
+    "records": 7472,
+    "people_per_year": 12234937
+   },
+   "year_2019": {
+    "pct": 66.5,
+    "moe": 1.8,
+    "se": 1.106,
+    "pct_exact": 66.50890630321281,
+    "moe_exact": 1.8194186379095942,
+    "records": 3103,
+    "people_per_year": 5312215
+   },
+   "year_2021": {
+    "pct": 67.9,
+    "moe": 1.6,
+    "se": 0.98,
+    "pct_exact": 67.91811729241196,
+    "moe_exact": 1.6128718769001196,
+    "records": 3002,
+    "people_per_year": 5570458
+   },
+   "year_2022": {
+    "pct": 68.0,
+    "moe": 1.6,
+    "se": 0.989,
+    "pct_exact": 67.99015325701933,
+    "moe_exact": 1.6270320806991476,
+    "records": 2825,
+    "people_per_year": 5979214
+   },
+   "year_2023": {
+    "pct": 70.6,
+    "moe": 1.6,
+    "se": 0.964,
+    "pct_exact": 70.63540878353483,
+    "moe_exact": 1.5852622297128962,
+    "records": 3164,
+    "people_per_year": 6331362
+   },
+   "year_2024": {
+    "pct": 71.5,
+    "moe": 1.6,
+    "se": 0.966,
+    "pct_exact": 71.5309730133609,
+    "moe_exact": 1.5898446829073414,
+    "records": 3334,
+    "people_per_year": 5906161
+   }
+  },
+  "a_lot": {
+   "all": {
+    "pct": 45.4,
+    "moe": 3.0,
+    "se": 1.814,
+    "pct_exact": 45.402250269796404,
+    "moe_exact": 2.983591790155912,
+    "records": 1131,
+    "people_per_year": 1975809
+   },
+   "records_all": 1184,
+   "people_per_year_all": 2064126,
+   "college1": {
+    "pct": 71.0,
+    "moe": 5.9,
+    "se": 3.581,
+    "pct_exact": 70.97965850254006,
+    "moe_exact": 5.890630609022047,
+    "records": 202,
+    "people_per_year": 291142
+   },
+   "college0": {
+    "pct": 41.3,
+    "moe": 3.3,
+    "se": 1.99,
+    "pct_exact": 41.26175414555503,
+    "moe_exact": 3.27420360400624,
+    "records": 920,
+    "people_per_year": 1662747
+   },
+   "other1": {
+    "pct": 23.7,
+    "moe": 3.9,
+    "se": 2.351,
+    "pct_exact": 23.729410793294765,
+    "moe_exact": 3.86715829710793,
+    "records": 462,
+    "people_per_year": 740294
+   },
+   "other0": {
+    "pct": 58.4,
+    "moe": 3.9,
+    "se": 2.359,
+    "pct_exact": 58.38814117022356,
+    "moe_exact": 3.880640496014341,
+    "records": 669,
+    "people_per_year": 1235515
+   },
+   "age_18-34": {
+    "pct": 65.2,
+    "moe": 7.0,
+    "se": 4.269,
+    "pct_exact": 65.22970971682471,
+    "moe_exact": 7.02281630060218,
+    "records": 174,
+    "people_per_year": 418253
+   },
+   "age_35-49": {
+    "pct": 50.8,
+    "moe": 6.0,
+    "se": 3.636,
+    "pct_exact": 50.780691301163884,
+    "moe_exact": 5.980611636097248,
+    "records": 286,
+    "people_per_year": 528484
+   },
+   "age_50-64": {
+    "pct": 34.6,
+    "moe": 3.7,
+    "se": 2.242,
+    "pct_exact": 34.58149644093056,
+    "moe_exact": 3.688308723252935,
+    "records": 671,
+    "people_per_year": 1029071
+   },
+   "year_2019": {
+    "pct": 45.6,
+    "moe": 6.1,
+    "se": 3.71,
+    "pct_exact": 45.63940525122708,
+    "moe_exact": 6.103540154644611,
+    "records": 236,
+    "people_per_year": 377501
+   },
+   "year_2021": {
+    "pct": 49.5,
+    "moe": 7.1,
+    "se": 4.315,
+    "pct_exact": 49.4502589996882,
+    "moe_exact": 7.0974917532593444,
+    "records": 210,
+    "people_per_year": 362692
+   },
+   "year_2022": {
+    "pct": 37.3,
+    "moe": 6.9,
+    "se": 4.192,
+    "pct_exact": 37.320835056672074,
+    "moe_exact": 6.895217849376906,
+    "records": 208,
+    "people_per_year": 414530
+   },
+   "year_2023": {
+    "pct": 46.4,
+    "moe": 6.5,
+    "se": 3.926,
+    "pct_exact": 46.41647151380194,
+    "moe_exact": 6.458597384568777,
+    "records": 214,
+    "people_per_year": 395608
+   },
+   "year_2024": {
+    "pct": 48.7,
+    "moe": 6.3,
+    "se": 3.847,
+    "pct_exact": 48.67163954189483,
+    "moe_exact": 6.327719317682315,
+    "records": 263,
+    "people_per_year": 425477
+   }
+  },
+  "cannot": {
+   "all": {
+    "pct": 41.3,
+    "moe": 10.1,
+    "se": 6.126,
+    "pct_exact": 41.307105964766485,
+    "moe_exact": 10.076980249755435,
+    "records": 88,
+    "people_per_year": 178444
+   },
+   "records_all": 90,
+   "people_per_year_all": 181103,
+   "college1": {
+    "pct": 75.7,
+    "moe": 15.4,
+    "se": 9.359,
+    "pct_exact": 75.7389821826849,
+    "moe_exact": 15.3958760258598,
+    "records": 25,
+    "people_per_year": 48192
+   },
+   "college0": {
+    "pct": 27.5,
+    "moe": 11.1,
+    "se": 6.746,
+    "pct_exact": 27.48037342996988,
+    "moe_exact": 11.09731266811221,
+    "records": 62,
+    "people_per_year": 128299
+   },
+   "other1": {
+    "pct": 32.2,
+    "moe": 15.7,
+    "se": 9.514,
+    "pct_exact": 32.23704880795959,
+    "moe_exact": 15.65093166228107,
+    "records": 31,
+    "people_per_year": 72835
+   },
+   "other0": {
+    "pct": 47.6,
+    "moe": 12.8,
+    "se": 7.769,
+    "pct_exact": 47.562458984743714,
+    "moe_exact": 12.779286726741026,
+    "records": 57,
+    "people_per_year": 105609
+   },
+   "age_18-34": {
+    "pct": 55.3,
+    "moe": 19.4,
+    "se": 11.783,
+    "pct_exact": 55.3226997183216,
+    "moe_exact": 19.38236938640428,
+    "records": 23,
+    "people_per_year": 65063
+   },
+   "age_35-49": {
+    "pct": 38.3,
+    "moe": 19.1,
+    "se": 11.609,
+    "pct_exact": 38.25592892858418,
+    "moe_exact": 19.096013382582566,
+    "records": 22,
+    "people_per_year": 45981
+   },
+   "age_50-64": {
+    "pct": 29.9,
+    "moe": 13.1,
+    "se": 7.982,
+    "pct_exact": 29.85898123068233,
+    "moe_exact": 13.130804714709104,
+    "records": 43,
+    "people_per_year": 67400
+   },
+   "year_2019": {
+    "pct": 48.8,
+    "moe": 27.8,
+    "se": 16.926,
+    "pct_exact": 48.75390200151198,
+    "moe_exact": 27.84403599773954,
+    "records": 14,
+    "people_per_year": 28732
+   },
+   "year_2021": {
+    "pct": 29.4,
+    "moe": 17.8,
+    "se": 10.814,
+    "pct_exact": 29.409096300186643,
+    "moe_exact": 17.78848047643483,
+    "records": 20,
+    "people_per_year": 45845
+   },
+   "year_2022": {
+    "pct": 47.3,
+    "moe": 23.0,
+    "se": 13.976,
+    "pct_exact": 47.34692718631511,
+    "moe_exact": 22.99050719994385,
+    "records": 17,
+    "people_per_year": 34923
+   },
+   "year_2023": {
+    "pct": 48.0,
+    "moe": 25.3,
+    "se": 15.388,
+    "pct_exact": 48.03038658207947,
+    "moe_exact": 25.31345767419474,
+    "records": 12,
+    "people_per_year": 23984
+   },
+   "year_2024": {
+    "pct": 40.4,
+    "moe": 20.3,
+    "se": 12.36,
+    "pct_exact": 40.40227604444661,
+    "moe_exact": 20.33190526239484,
+    "records": 25,
+    "people_per_year": 44960
+   }
+  },
+  "a_lot_or_cannot": {
+   "all": {
+    "pct": 45.1,
+    "moe": 2.9,
+    "se": 1.741,
+    "pct_exact": 45.06303529031068,
+    "moe_exact": 2.8636863393576135,
+    "records": 1219,
+    "people_per_year": 2154253
+   },
+   "records_all": 1274,
+   "people_per_year_all": 2245229,
+   "college1": {
+    "pct": 71.7,
+    "moe": 5.5,
+    "se": 3.352,
+    "pct_exact": 71.65557724340817,
+    "moe_exact": 5.5133878058506065,
+    "records": 227,
+    "people_per_year": 339334
+   },
+   "college0": {
+    "pct": 40.3,
+    "moe": 3.1,
+    "se": 1.907,
+    "pct_exact": 40.274542954123795,
+    "moe_exact": 3.1372030982290235,
+    "records": 982,
+    "people_per_year": 1791047
+   },
+   "other1": {
+    "pct": 24.5,
+    "moe": 3.7,
+    "se": 2.273,
+    "pct_exact": 24.491475415564835,
+    "moe_exact": 3.739900293462889,
+    "records": 493,
+    "people_per_year": 813129
+   },
+   "other0": {
+    "pct": 57.5,
+    "moe": 3.7,
+    "se": 2.277,
+    "pct_exact": 57.53565612992493,
+    "moe_exact": 3.745364059472424,
+    "records": 726,
+    "people_per_year": 1341124
+   },
+   "age_18-34": {
+    "pct": 63.9,
+    "moe": 6.6,
+    "se": 4.01,
+    "pct_exact": 63.89604494662409,
+    "moe_exact": 6.595784093628003,
+    "records": 197,
+    "people_per_year": 483317
+   },
+   "age_35-49": {
+    "pct": 49.8,
+    "moe": 5.7,
+    "se": 3.469,
+    "pct_exact": 49.77819480818003,
+    "moe_exact": 5.706235697752341,
+    "records": 308,
+    "people_per_year": 574465
+   },
+   "age_50-64": {
+    "pct": 34.3,
+    "moe": 3.6,
+    "se": 2.164,
+    "pct_exact": 34.29120333313173,
+    "moe_exact": 3.5600057214033956,
+    "records": 714,
+    "people_per_year": 1096471
+   },
+   "year_2019": {
+    "pct": 45.9,
+    "moe": 5.9,
+    "se": 3.595,
+    "pct_exact": 45.85968484129603,
+    "moe_exact": 5.913669794604333,
+    "records": 250,
+    "people_per_year": 406233
+   },
+   "year_2021": {
+    "pct": 47.2,
+    "moe": 6.7,
+    "se": 4.076,
+    "pct_exact": 47.201291258958896,
+    "moe_exact": 6.705820380812912,
+    "records": 230,
+    "people_per_year": 408537
+   },
+   "year_2022": {
+    "pct": 38.1,
+    "moe": 6.7,
+    "se": 4.082,
+    "pct_exact": 38.09988267464763,
+    "moe_exact": 6.714420684247026,
+    "records": 225,
+    "people_per_year": 449454
+   },
+   "year_2023": {
+    "pct": 46.5,
+    "moe": 6.2,
+    "se": 3.781,
+    "pct_exact": 46.508724749672595,
+    "moe_exact": 6.219999020792897,
+    "records": 226,
+    "people_per_year": 419593
+   },
+   "year_2024": {
+    "pct": 47.9,
+    "moe": 6.1,
+    "se": 3.704,
+    "pct_exact": 47.881335303688324,
+    "moe_exact": 6.09233278497138,
+    "records": 288,
+    "people_per_year": 470437
+   }
+  },
+  "any": {
+   "all": {
+    "pct": 67.4,
+    "moe": 0.7,
+    "se": 0.44,
+    "pct_exact": 67.35022622637473,
+    "moe_exact": 0.7238256143187531,
+    "records": 16647,
+    "people_per_year": 31253662
+   },
+   "records_all": 17232,
+   "people_per_year_all": 32394920,
+   "college1": {
+    "pct": 82.1,
+    "moe": 1.0,
+    "se": 0.604,
+    "pct_exact": 82.05266295115102,
+    "moe_exact": 0.9934785268745864,
+    "records": 4923,
+    "people_per_year": 7809531
+   },
+   "college0": {
+    "pct": 62.4,
+    "moe": 0.9,
+    "se": 0.534,
+    "pct_exact": 62.39921210162256,
+    "moe_exact": 0.8779244158431425,
+    "records": 11641,
+    "people_per_year": 23255204
+   },
+   "other1": {
+    "pct": 33.7,
+    "moe": 1.8,
+    "se": 1.113,
+    "pct_exact": 33.68931146096006,
+    "moe_exact": 1.8310408665150677,
+    "records": 2695,
+    "people_per_year": 4680643
+   },
+   "other0": {
+    "pct": 73.3,
+    "moe": 0.8,
+    "se": 0.457,
+    "pct_exact": 73.29200603705881,
+    "moe_exact": 0.7510421029215851,
+    "records": 13942,
+    "people_per_year": 26556672
+   },
+   "age_18-34": {
+    "pct": 71.0,
+    "moe": 1.5,
+    "se": 0.913,
+    "pct_exact": 70.98533802716375,
+    "moe_exact": 1.5021609681221912,
+    "records": 3659,
+    "people_per_year": 8950723
+   },
+   "age_35-49": {
+    "pct": 74.8,
+    "moe": 1.2,
+    "se": 0.748,
+    "pct_exact": 74.82414809729022,
+    "moe_exact": 1.2308625432599758,
+    "records": 4802,
+    "people_per_year": 8971532
+   },
+   "age_50-64": {
+    "pct": 59.9,
+    "moe": 1.1,
+    "se": 0.656,
+    "pct_exact": 59.87994214679483,
+    "moe_exact": 1.0786552335979538,
+    "records": 8186,
+    "people_per_year": 13331408
+   },
+   "year_2019": {
+    "pct": 65.0,
+    "moe": 1.8,
+    "se": 1.077,
+    "pct_exact": 65.04200500158615,
+    "moe_exact": 1.7716047242108321,
+    "records": 3353,
+    "people_per_year": 5718448
+   },
+   "year_2021": {
+    "pct": 66.5,
+    "moe": 1.6,
+    "se": 0.966,
+    "pct_exact": 66.50256376762673,
+    "moe_exact": 1.5882886114757055,
+    "records": 3232,
+    "people_per_year": 5978995
+   },
+   "year_2022": {
+    "pct": 65.9,
+    "moe": 1.6,
+    "se": 0.981,
+    "pct_exact": 65.90040623596913,
+    "moe_exact": 1.6143351576843075,
+    "records": 3050,
+    "people_per_year": 6428668
+   },
+   "year_2023": {
+    "pct": 69.1,
+    "moe": 1.5,
+    "se": 0.928,
+    "pct_exact": 69.13586058949642,
+    "moe_exact": 1.5268626565496894,
+    "records": 3390,
+    "people_per_year": 6750954
+   },
+   "year_2024": {
+    "pct": 69.8,
+    "moe": 1.6,
+    "se": 0.964,
+    "pct_exact": 69.7862097866252,
+    "moe_exact": 1.58536725178866,
+    "records": 3622,
+    "people_per_year": 6376598
+   }
+  }
+ },
+ "everyone": {
+  "2019": {
+   "pct": 76.6,
+   "moe": 0.7,
+   "se": 0.398,
+   "pct_exact": 76.56172930998085,
+   "moe_exact": 0.6540902097377561,
+   "records": 22099,
+   "people_per_year": 38525423
+  },
+  "2021": {
+   "pct": 74.9,
+   "moe": 0.6,
+   "se": 0.384,
+   "pct_exact": 74.86688196056717,
+   "moe_exact": 0.6319564017023457,
+   "records": 19838,
+   "people_per_year": 38005702
+  },
+  "2022": {
+   "pct": 76.3,
+   "moe": 0.6,
+   "se": 0.383,
+   "pct_exact": 76.27270428490122,
+   "moe_exact": 0.629934161466675,
+   "records": 17950,
+   "people_per_year": 37832248
+  },
+  "2023": {
+   "pct": 76.7,
+   "moe": 0.7,
+   "se": 0.398,
+   "pct_exact": 76.68196899544198,
+   "moe_exact": 0.6552781652962117,
+   "records": 18911,
+   "people_per_year": 38129058
+  },
+  "2024": {
+   "pct": 77.1,
+   "moe": 0.6,
+   "se": 0.387,
+   "pct_exact": 77.11059215460128,
+   "moe_exact": 0.6368661996600673,
+   "records": 20848,
+   "people_per_year": 38447707
+  },
+  "pooled": {
+   "pct": 76.3,
+   "moe": 0.3,
+   "se": 0.175,
+   "pct_exact": 76.30164158548934,
+   "moe_exact": 0.2872703606151523,
+   "records": 99646,
+   "people_per_year": 190940139
+  }
+ },
+ "share_of_adults": {
+  "none": 83.66,
+  "some": 15.2,
+  "a_lot": 1.04,
+  "cannot": 0.09,
+  "a_lot_or_cannot": 1.13,
+  "any": 16.34
+ }
+}
