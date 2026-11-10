@@ -1,0 +1,73 @@
+WEBVTT
+
+00:00.000 --> 00:07.800
+Brian: Okay, so this is a little demonstration of the SUN dictionary that I'm using now for NVDA.
+
+00:07.800 --> 00:16.000
+Brian: When I first started looking into SUN, I realized that I would not be able to read it. I can't use my fingers, I can't see the screen.
+
+00:16.000 --> 00:26.400
+Brian: I use NVDA as my screen reader. And so I wanted to see if there was any way that I could access the PDFs that SUN comes in.
+
+00:29.600 --> 00:38.400
+Brian: And so with AI's help, Claude and Fable, we built this dictionary for NVDA. And so I'm going to demonstrate that real quick.
+
+00:38.400 --> 00:43.700
+Brian: I've got a PDF here that is the New Testament. I'm just going to open it on my computer.
+
+00:43.700 --> 00:48.200
+[NVDA announces the file and the Edge window]
+
+00:48.200 --> 00:51.700
+Brian: And slow my screen reader down.
+
+00:51.700 --> 00:56.700
+[NVDA reads the toolbar]
+
+00:56.700 --> 01:05.500
+Brian: Now what I've got to do is get into the actual body of the PDF. So I'm just going to down arrow until I get there. Maybe.
+
+01:05.500 --> 01:10.300
+[NVDA reads the table of contents]
+
+01:10.300 --> 01:18.100
+Brian: All right, now from here, I'm just going to try to find the link for Mark.
+
+01:18.100 --> 01:22.600
+[NVDA reads links in the table of contents]
+
+01:22.600 --> 01:26.800
+Brian: Hit enter on that.
+
+01:26.800 --> 01:34.900
+NVDA: Page 69. Teaching they obey everything I commanded. I with you eternal. I with you end world. Quote.
+
+01:34.900 --> 01:43.500
+NVDA: The Book of Mark. One. One, beginning gospel Jesus Christ God S son. Two, prophet Isaiah write, I sent I S messenger before you, man prepared you S way. Three, voice cried in wilderness, prepared Jesus S way, made Jesus S way.
+
+01:43.500 --> 01:57.900
+NVDA: Four, John baptized people in wilderness. John preach baptized with repent, God forgive people S sins. Five, all Judea and Jerusalem came John. John baptized people in Jordan. People said John they S sins.
+
+01:57.900 --> 02:08.100
+NVDA: Six, John dressed S hair and John eat and wild. Seven, John said man came after I, more power I. I not worthy man S. Eight, I baptized you use water. Man baptized you in Holy Spirit.
+
+02:08.100 --> 02:22.100
+NVDA: Nine, Jesus came from Nazareth in Galilee. Jesus came when John baptized people. John baptized Jesus in Jordan. Ten, heaven divided when Jesus rose water. Holy Spirit came Jesus like. Eleven, voice from heaven said you I S son.
+
+02:22.100 --> 02:28.000
+Brian: And so that's just constant, steady reading. I would normally use my arrow keys, right arrow, left arrow.
+
+02:28.000 --> 02:38.100
+NVDA: Teaching. They. Obey. Everything. I. Commanded. Period. I. With. You. Space. Space.
+
+02:38.100 --> 02:41.500
+Brian: Or I could use another command to just read continuously.
+
+02:41.500 --> 02:52.400
+NVDA: Eternal I with you end world. Quote. The Book of Mark. One. One, beginning gospel Jesus Christ God S son. Two, prophet Isaiah write, I sent I. Quote. Selected.
+
+02:52.400 --> 03:00.600
+Brian: Okay. So just by nature, my screen reader struggles with this format. I think it's in two columns. We could probably do things different.
+
+03:00.600 --> 03:08.000
+Brian: Not that we want to do that for screen readers, but if it was designed or set up for a screen reader, we'd probably set it up a little different.

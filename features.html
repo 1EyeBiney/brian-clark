@@ -142,9 +142,31 @@
 <p><strong>The problem.</strong> Taking notes with a screen reader is a skill of its own, and a student who is new to screen readers cannot be expected to use it while still learning everything else in the same class.</p>
 <p><strong>What I built.</strong> For First Aid for the Blind, each class recording is transcribed on my own computer. A small AI model, also running on that computer, then reads the transcript against my lesson plan and writes about ten notes with headlines, the way an attentive student would. The email goes out overnight. No class recording is sent to an outside AI service, there is no monthly fee, and it runs on a laptop processor with no graphics card. More detail is on the <a href="index.html#faftb">main page</a>.</p>
 
-<h3>Reading Scripture written in symbols, by speech</h3>
+<h3 id="sun">Reading Scripture written in symbols, by speech</h3>
 <p><strong>The problem.</strong> Symbolic Universal Notation is a picture-symbol Bible for Deaf and DeafBlind readers, published by Wycliffe Associates. It is made to be seen, and a screen reader could make nothing of it.</p>
 <p><strong>What I built.</strong> This was an experiment of my own, not work done for its publisher. I wanted to know whether Claude could help me build a dictionary that would let NVDA speak the symbols. Working only from the published New Testament, we found that its 1,306 symbols were ordinary characters in a custom font, matched all 7,955 verses against the English they were made from, and produced a pronunciation file so that NVDA reads a page of the symbols aloud as words. About nine words in ten are covered.</p>
+
+<h4 id="sun-demo">A three-minute demonstration</h4>
+<p>I recorded this on November 9, 2026. On the screen is a copy of the published SUN New Testament open in the Edge browser's PDF viewer, with the symbols showing as printed. You hear me, and you hear NVDA reading the start of the Gospel of Mark aloud as words. I cannot see the screen, so the recording shows exactly what the dictionary does and nothing more. There is a transcript below the video, and the player has captions.</p>
+<video controls preload="metadata" width="1280" height="800" src="assets/sun-demo.mp4">
+<track kind="captions" src="assets/sun-demo.vtt" srclang="en" label="English captions">
+<p>Your browser does not play this video. <a href="assets/sun-demo.mp4">Download the video file</a>, 3.8 megabytes.</p>
+</video>
+<details>
+<summary>Transcript of the demonstration</summary>
+<p>NVDA's words follow the order of the symbols on the page. Where it says the letter S, it is reading the symbol that marks possession, so "God S son" is "God's son." Where a symbol is not in the dictionary, NVDA says nothing for it, which is why a few words are missing from verses six and seven.</p>
+<p><strong>Brian:</strong> Okay, so this is a little demonstration of the SUN dictionary that I'm using now for NVDA. When I first started looking into SUN, I realized that I would not be able to read it. I can't use my fingers, I can't see the screen. I use NVDA as my screen reader. And so I wanted to see if there was any way that I could access the PDFs that SUN comes in. And so with AI's help, Claude and Fable, we built this dictionary for NVDA. And so I'm going to demonstrate that real quick. I've got a PDF here that is the New Testament. I'm just going to open it on my computer.</p>
+<p>NVDA announces the file and the browser window.</p>
+<p><strong>Brian:</strong> And slow my screen reader down. Now what I've got to do is get into the actual body of the PDF. So I'm just going to down arrow until I get there. Maybe.</p>
+<p>NVDA reads the toolbar and the table of contents.</p>
+<p><strong>Brian:</strong> All right, now from here, I'm just going to try to find the link for Mark. Hit enter on that.</p>
+<p><strong>NVDA:</strong> Page 69. Teaching they obey everything I commanded. I with you eternal. I with you end world. Quote. The Book of Mark. One. One, beginning gospel Jesus Christ God S son. Two, prophet Isaiah write, I sent I S messenger before you, man prepared you S way. Three, voice cried in wilderness, prepared Jesus S way, made Jesus S way. Four, John baptized people in wilderness. John preach baptized with repent, God forgive people S sins. Five, all Judea and Jerusalem came John. John baptized people in Jordan. People said John they S sins. Six, John dressed S hair and John eat and wild. Seven, John said man came after I, more power I. I not worthy man S. Eight, I baptized you use water. Man baptized you in Holy Spirit. Nine, Jesus came from Nazareth in Galilee. Jesus came when John baptized people. John baptized Jesus in Jordan. Ten, heaven divided when Jesus rose water. Holy Spirit came Jesus like. Eleven, voice from heaven said you I S son.</p>
+<p><strong>Brian:</strong> And so that's just constant, steady reading. I would normally use my arrow keys, right arrow, left arrow.</p>
+<p><strong>NVDA:</strong> Teaching. They. Obey. Everything. I. Commanded. Period. I. With. You. Space. Space.</p>
+<p><strong>Brian:</strong> Or I could use another command to just read continuously.</p>
+<p><strong>NVDA:</strong> Eternal I with you end world. Quote. The Book of Mark. One. One, beginning gospel Jesus Christ God S son. Two, prophet Isaiah write, I sent I. Quote. Selected.</p>
+<p><strong>Brian:</strong> Okay. So just by nature, my screen reader struggles with this format. I think it's in two columns. We could probably do things different. Not that we want to do that for screen readers, but if it was designed or set up for a screen reader, we'd probably set it up a little different.</p>
+</details>
 
 <h3>The laptop quote pipeline</h3>
 <p><strong>The problem.</strong> Pricing a refurbished laptop for a client means searching several shopping sites that are slow and cluttered with a screen reader, then writing up the result for Vocational Rehabilitation.</p>

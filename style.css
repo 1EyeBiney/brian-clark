@@ -25,6 +25,9 @@ h1 { font-size: 2rem; margin: 0 0 .25rem; line-height: 1.2; }
 h2 { font-size: 1.5rem; margin: 2.5rem 0 .75rem; border-bottom: 2px solid var(--accent); padding-bottom: .25rem; }
 h3 { font-size: 1.15rem; margin: 1.5rem 0 .4rem; }
 p, li { max-width: 42rem; }
+video { display: block; max-width: 100%; height: auto; margin: 1rem 0; }
+details { margin: 1rem 0; }
+summary { cursor: pointer; font-weight: bold; }
 nav.toc ul { list-style: none; padding: 0; margin: .5rem 0 0; display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
 nav.toc a { color: var(--accent); }
 a { color: var(--accent); }
